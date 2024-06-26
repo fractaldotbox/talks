@@ -9,3 +9,9 @@ To start the slide show:
 Edit the [slides.md](./slides.md) to see the changes.
 
 Learn more about Slidev on [documentations](https://sli.dev/).
+
+
+### to deploy 
+- Export static & deploy to Github pages
+- setup base url so root index.html & sub routes will work
+- `npx slidev build --base /hacking-hackathons/dist`

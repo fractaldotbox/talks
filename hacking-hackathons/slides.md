@@ -66,6 +66,7 @@ transition: fade-out
 | 2024-05 | EthGlobal Scaling Ethereum 2024 | (Online) | [Ethereum L10n Service](https://web.ethglobal.com/showcase/ethereuml10nservice-v65cs) | 🏆🏆🏆 Finalist, Filecoin 2nd | $1.2k + Ledger + Flight credits 🧑‍💻
 | 2024-06 | EthGlobal HackFs 2024 | (Online) | [Civ AI](https://ethglobal.com/showcase/civ-ai-miwn2)  | 🏆🏆🏆 Finalist, CoopHive 2nd  | $1.2k + Ledger + Flight credits 🧑‍💻🧑‍💻
 
+![Local Image](/ethglobal_hackfs.jpg)
 
 
 ---
@@ -179,7 +180,7 @@ While
   - Is your judge Phd / VC / Technical?
 
 - Don't focus on details but end up with this (TLDR of Game of Thrones on Reddit)
-   <!-- ![alt text](./image.png) -->
+   ![alt text](/image.png)
 ---
 
 # You need a story, really
