@@ -179,10 +179,10 @@ While
   - Is your judge Phd / VC / Technical?
 
 - Don't focus on details but end up with this (TLDR of Game of Thrones on Reddit)
-   ![alt text](image.png)
+   <!-- ![alt text](./image.png) -->
 ---
 
-# You need a story
+# You need a story, really
 
 - Work backwards
   - does it sounds like a good Twitter post?
