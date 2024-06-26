@@ -14,4 +14,5 @@ Learn more about Slidev on [documentations](https://sli.dev/).
 ### to deploy 
 - Export static & deploy to Github pages
 - setup base url so root index.html & sub routes will work
-- `npx slidev build --base /hacking-hackathons/dist`
+- Target = https://fractaldotbox.github.io/talks/
+- `npx slidev build --base /talks/hacking-hackathons/dist`

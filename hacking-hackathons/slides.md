@@ -120,9 +120,11 @@ Actually - 3 more
 
 - Be a creator for a weekend (vs your day job)
 
+<!-- what are you passionate about  -->
+
+![image](https://i.makeagif.com/media/7-11-2018/u86vUT.gif)
+
 ---
-
-
 
 
 
