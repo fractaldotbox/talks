@@ -230,6 +230,7 @@ What if I got sick & now you're by yourself to submit it. How will you change th
 ---
 
 # Improvise
+- 80-20 rule. Which is that 20%?
 
 - Listing the bounties/features... Which are must-hv/nice-to-hv?
 
@@ -267,7 +268,7 @@ What if I got sick & now you're by yourself to submit it. How will you change th
 ##  EthGlobal Scaling Ethereum 2024 (Online)
 -  [Ethereum L10n Service](https://web.ethglobal.com/showcase/ethereuml10nservice-v65cs)
 
-- [Slides](https://docs.google.com/presentation/d/1MY-ITYuZAhWVfDiV-v361k3Dp8azV63oPqdUxsl-ByM/edit?usp=sharing)
+- [Slides](https://docs.google.com/presentation/d/1V6rBTyLeF2eGzEFFHQ_eLj2kJzUUNmo71MlyFnanVGI/edit#slide=id.g4dfce81f19_0_45)
 
 ---
 
