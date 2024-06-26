@@ -69,6 +69,17 @@ transition: fade-out
 ![Local Image](/ethglobal_hackfs.jpg)
 
 
+
+<style>
+.slidev-layout td {
+  padding: 0.5rem;
+  font-size: 0.75rem;
+}
+img {
+  max-height: 12rem;
+}
+</style>
+
 ---
 
 # More Hacks I did recently
@@ -132,7 +143,7 @@ Actually - 3 more
 | --- | --- | --- |--- |--- |
 |     |  |     | Story   | Motiv   
 | 2023-07 | EthGlobal Paris | [Delegative](https://ethglobal.com/showcase/delegative-wwptp) | Liquid democracy to improve DAO voting rate |  I'm joining a team building DAO tool, I want to learn about on/off-chain voting
-| 2023-06 | EthGlobal HackFs 2023 | TENTAI | Decentralized version of hugging face space / Gradio | Explore application of using bacalhau at decentralize AI 
+| 2023-06 | EthGlobal HackFs 2023 | TENTAI | Decentralized version of Hugging Face Space / Gradio | Explore applications of Bacalhau at decentralize AI 
 | 2024-06 | EthGlobal HackFs 2024 |[Civ AI](https://ethglobal.com/showcase/civ-ai-miwn2) | Autonomous (DeAI) Agents collaborate | Explore deAI co-operations / swarm intelligence meanwhile a working solid use cases -- more flexible to build a game perhaps
 | 2024-05 | EthGlobal Scaling Ethereum 2024 | [Ethereum L10n Service](https://web.ethglobal.com/showcase/ethereuml10nservice-v65cs) | Ethereum for next billions | Prototype my side project and get feedback, with ETHGlobal as a usecase 
 
@@ -159,7 +170,7 @@ While
 
 - What are some themes organizers/judges looking for?
 
-- Showcase for Techstack? Tools for our deentralizeation/Privacy/Identity? 
+- Showcase for Techstack? Tools for Decentralizeation/Privacy/Identity? 
 
 - What are other teams building? 
 
@@ -249,7 +260,21 @@ What if I got sick & now you're by yourself to submit it. How will you change th
 
 ---
 
-# 4. Yes it's Solns finding pbm
+# 4. Yes it's far from perfect
+
+###  Hackathons varies a lot
+
+- Competition
+
+- "Shiny UI seeking"
+
+- Randomness in judging criteria
+
+- Yes it feels bad if you spent hours to build but not hearing about it for weeks
+
+---
+
+# Sometimes. Solns finding pbm
 
 - Engineering Training = Find soln to a problem
 
@@ -281,31 +306,29 @@ What if I got sick & now you're by yourself to submit it. How will you change th
     - Video processing is hard to scale -> Limit to 1 short video
 
 ---
-
-
-
+layout: two-cols
+---
 
 # 5. Coordination is fundamentally hard
 
-
-# What you think your team will do
+## What you think your team will do
 
 
 ![Local Image](/image1.gif)
+
+::right::
+
+## What your team actually do
+- Do you really know your teammates?
+
+![Local Image](https://giffiles.alphacoders.com/815/81502.gif)
+
 
 - I worked with PhD, 15 year old...
 
 - usually took 40% time to onboard team to a pre-defined idea
 
-
----
-layout: image
----
-
-# What your team actually do
-- Do you really know your teammates?
-
-![Local Image](https://giffiles.alphacoders.com/815/81502.gif)
+- Integrating Fragile components = Fragile Systems
 
 ---
 
@@ -318,7 +341,7 @@ layout: image
 ---
 
 
-# 5. It's not just abt what you build
+# 6. It's not just abt what you build
 
 - but what others build!
 
@@ -333,7 +356,7 @@ layout: image
 
 ---
 
-# 6. Pick your battlefield
+# 7. Pick your battlefield
 
 
 - Join Hackathons of Ecosystems 
@@ -368,13 +391,12 @@ Good news - 10+ hackathons to join... OR not!
 
 
 
-# 7. Sign up Marathons... to stay FIT
+# 8. Hackathon ~ Marathon.. Sign up to stay FIT
 
 
 - Push yourself to build & learn
 
-- Yes it feel bad if you spent hours to build but not hearing about it for weeks
-  - Count what you build & learn
+- Win or not.. Count what you build & learn
   - Make hackathon work for you! "I'm building this anyway"
 
 - I learnt a ton! Prizes are like cashback.
@@ -391,8 +413,10 @@ Good news - 10+ hackathons to join... OR not!
   - it's going to end!
 
 ---
+layout: two-cols
+---
 
-# 8. Continuity
+# 9. Continuity
 
 
 - Hackathon Winner pitching to VCs
@@ -401,172 +425,20 @@ Good news - 10+ hackathons to join... OR not!
 
 - Gitcoin / Alumini
 
-
-
-<!-- Ai latency “thinking time”
-Function call / but json not available for my use cases
- -->
-
-
----
-
-layout: two-cols
-layoutClass: gap-16
----
-
-# Table of contents
-
-You can use the `Toc` component to generate a table of contents for your slides:
-
-```html
-<Toc minDepth="1" maxDepth="1"></Toc>
-```
-
-The title will be inferred from your slide content, or you can override it with `title` and `level` in your frontmatter.
-
 ::right::
+# some went on to be successful companies
 
-<Toc v-click minDepth="1" maxDepth="2"></Toc>
+<Tweet id="1789037721580958030" />
 
----
-layout: image-right
-image: https://cover.sli.dev
----
-
-# Code
-
-Use code snippets and get the highlighting directly, and even types hover![^1]
-
-```ts {all|5|7|7-8|10|all} twoslash
-// TwoSlash enables TypeScript hover information
-// and errors in markdown code blocks
-// More at https://shiki.style/packages/twoslash
-
-import { computed, ref } from 'vue'
-
-const count = ref(0)
-const doubled = computed(() => count.value * 2)
-
-doubled.value = 2
-```
-
-<arrow v-click="[4, 5]" x1="350" y1="310" x2="195" y2="334" color="#953" width="2" arrowSize="1" />
-
-<!-- This allow you to embed external code blocks -->
-<<< @/snippets/external.ts#snippet
-
-<!-- Footer -->
-[^1]: [Learn More](https://sli.dev/guide/syntax.html#line-highlighting)
-
-<!-- Inline style -->
 <style>
-.footnotes-sep {
-  @apply mt-5 opacity-10;
-}
-.footnotes {
-  @apply text-sm opacity-75;
-}
-.footnote-backref {
-  display: none;
+.twitter-tweet {
+  height: 10rem;
 }
 </style>
 
-<!--
-Notes can also sync with clicks
-
-[click] This will be highlighted after the first click
-
-[click] Highlighted with `count = ref(0)`
-
-[click:3] Last click (skip two clicks)
--->
-
-
 ---
 
----
-foo: bar
-dragPos:
-  square: 691,32,167,_,-16
----
+# Thank you!
 
-# Draggable Elements
-
-Double-click on the draggable elements to edit their positions.
-
-<br>
-
-###### Directive Usage
-
-```md
-<img v-drag="'square'" src="https://sli.dev/logo.png">
-```
-
-<br>
-
-###### Component Usage
-
-```md
-<v-drag text-3xl>
-  <carbon:arrow-up />
-  Use the `v-drag` component to have a draggable container!
-</v-drag>
-```
-
-<v-drag pos="663,206,261,_,-15">
-  <div text-center text-3xl border border-main rounded>
-    Double-click me!
-  </div>
-</v-drag>
-
-<img v-drag="'square'" src="https://sli.dev/logo.png">
-
-###### Draggable Arrow
-
-```md
-<v-drag-arrow two-way />
-```
-
-<v-drag-arrow pos="67,452,253,46" two-way op70 />
-
----
-src: ./pages/multiple-entries.md
-hide: false
----
-
----
-
-# Monaco Editor
-
-Slidev provides built-in Monaco Editor support.
-
-Add `{monaco}` to the code block to turn it into an editor:
-
-```ts {monaco}
-import { ref } from 'vue'
-import { emptyArray } from './external'
-
-const arr = ref(emptyArray(10))
-```
-
-Use `{monaco-run}` to create an editor that can execute the code directly in the slide:
-
-```ts {monaco-run}
-import { version } from 'vue'
-import { emptyArray, sayHello } from './external'
-
-sayHello()
-console.log(`vue ${version}`)
-console.log(emptyArray<number>(10).reduce(fib => [...fib, fib.at(-1)! + fib.at(-2)!], [1, 1]))
-```
-
----
-layout: center
-class: text-center
----
-
-# Learn More
-
-[Documentation](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/showcases.html)
 
 <PoweredBySlidev mt-10 />
