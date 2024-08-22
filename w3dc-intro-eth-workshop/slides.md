@@ -26,7 +26,7 @@ mdc: true
 
 # W3DC - Intro to ETH Workshop 
 
-Meetup of Technical audience around Eth ecosystems during Token2049 
+In-person dev workshop in Singapore before ETHGlobalSG hackathon
 
 
 <div class="abs-br m-6 flex gap-2">
