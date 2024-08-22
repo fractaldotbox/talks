@@ -143,7 +143,7 @@ Hopefully you will have better ideas on some of the below questions to continue 
 ---
 ---
 
-# Agenda - 1.0 Draft
+# Agenda - Part1 Draft
 30min session on "What is a dAPP"
 - Dissecting dApp interactions on [Polymarket](https://polymarket.com/)
 - Dissecting a simple, past hackathong project such as [Vincent's past project](https://ethglobal.com/showcase/delegative-wwptp)
@@ -158,7 +158,7 @@ Hopefully you will have better ideas on some of the below questions to continue 
 ---
 ---
 
-# Agenda - 2.0 Draft
+# Agenda - Part2 Draft
 30min session to talk about typical dApp frontend
 - wagmi / rainbowkit setup
 - Checksummed address
@@ -171,7 +171,7 @@ Hopefully you will have better ideas on some of the below questions to continue 
 ---
 ---
 
-# Agenda - 3.0 Solidity
+# Agenda - Part3 Solidity
 30min sesion to show and tell how smart contracts are being built.
 Will not cover details of types, gas optimization tips
 - Remix
@@ -184,7 +184,7 @@ Will not cover details of types, gas optimization tips
 ---
 ---
 
-# Agenda - 4.0 Draft
+# Agenda - Part4 Draft
 - 10-20min on networking / teammates matching
 - 10min on hackathon tips
 - Q&A session
@@ -233,7 +233,7 @@ Will not cover details of types, gas optimization tips
 # Organizers
 
 - Web3Dev.Community
-We have hosted 5+ develoepr meetups in Singapore with speakers from Filecoin, Coinbase, Chainlink, LiquidX and more web3 companies.
+  - We have hosted 5+ develoepr meetups in Singapore with speakers from Filecoin, Coinbase, Chainlink, LiquidX and more web3 companies.
 
 <img border="rounded" style="height: 200px;" src="https://pbs.twimg.com/media/GL79t75bMAAafKb?format=jpg&name=large" alt="">
 
@@ -256,8 +256,7 @@ We have hosted 5+ develoepr meetups in Singapore with speakers from Filecoin, Co
 
 
 
-- ETHGlobal (TBC)
- - [Perks applying hackathon via W3DC](https://docs.google.com/forms/d/1ap40lW7jSZRIKIaFt_Zglt9Ap4DnaxDGlqUbqi_fYuY/edit) 
+- ETHGlobal (TBC) | [Perks applying hackathon via W3DC](https://docs.google.com/forms/d/1ap40lW7jSZRIKIaFt_Zglt9Ap4DnaxDGlqUbqi_fYuY/edit) 
 
 
 
