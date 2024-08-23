@@ -5,7 +5,7 @@ theme: seriph
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: https://cover.sli.dev
 # some information about your slides (markdown enabled)
-title: W3DevC - Intro to ETH Workshop 
+title: W3DevC - Build on ETH Intro Workshop
 info: |
   ## Slidev Starter Template
   Presentation slides for developers.
@@ -24,7 +24,7 @@ transition: slide-left
 mdc: true
 ---
 
-# W3DC - Intro to ETH Workshop 
+# W3DC - Build on ETH Intro Workshop
 
 In-person dev workshop in Singapore before ETHGlobalSG hackathon
 
@@ -154,6 +154,7 @@ Hopefully you will have better ideas on some of the below questions to continue 
 - What is censorship resistence?
 - What is transaciton? 
 - What are some frequently talk about primiative such as hash, signatures, attetations?
+- What is EOA vs smart account?
 
 ---
 ---
