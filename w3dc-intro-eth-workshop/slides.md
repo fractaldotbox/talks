@@ -219,7 +219,7 @@ Will not cover details of types, gas optimization tips
 # Date & Venue 
 
 
-- 5th Sep 2024 (Wed)
+- 4th Sep 2024 (Wed)
 - AWS (TBC)
 
 
