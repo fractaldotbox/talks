@@ -220,15 +220,15 @@ Will not cover details of types, gas optimization tips
 
 
 ---
-
+layout: two-cols
 ---
 
-# Organizers
+## Organizers
 
 - Web3Dev.Community
-  - We have hosted 5+ develoepr meetups in Singapore with speakers from Filecoin, Coinbase, Chainlink, LiquidX and more web3 companies.
+  - We have hosted 6+ Dev meetups in Singapore with speakers from Filecoin, Coinbase, Chainlink, LiquidX and more web3 companies.
 
-<img border="rounded" style="height: 200px;" src="https://pbs.twimg.com/media/GL79t75bMAAafKb?format=jpg&name=large" alt="">
+<img border="rounded" style="height: 150px;" src="https://pbs.twimg.com/media/GL79t75bMAAafKb?format=jpg&name=large" alt="">
 
 
 
@@ -236,25 +236,31 @@ Will not cover details of types, gas optimization tips
 <!-- <img border="rounded" src="https://pbs.twimg.com/profile_images/1639560056449662977/gyulatO2_400x400.jpg" alt=""> -->
 
 
+::right::
 
 
+## Community Partners
 
-### Community Partners
 
 <a href="https://talentweb3.co/">
 
-
-<img border="rounded" style="height: 50px;" src="https://framerusercontent.com/images/i5WDhu5qjzWfi39Bwi6iEHJcuk.svg" alt="">
+<img border="rounded" style="height: 100px;" src="https://framerusercontent.com/images/i5WDhu5qjzWfi39Bwi6iEHJcuk.svg" alt="">
 </a>
 
+<img border="rounded" style="height: 100px;" src="https://assets-global.website-files.com/62428ba0955ccb660b2e7f1f/6452078557541f634286d1ef_Vectors-Wrapper.svg" alt="">
 
 
-- ETHGlobal (TBC) | [Perks applying hackathon via W3DC](https://docs.google.com/forms/d/1ap40lW7jSZRIKIaFt_Zglt9Ap4DnaxDGlqUbqi_fYuY/edit) 
+<a href="">
+  <img style="height: 100px;" src="https://ethglobal.storage/events/singapore2024/logo/default">
+</img></a>
+
+- [Perks applying hackathon via WebDevCommunity](https://docs.google.com/forms/d/1ap40lW7jSZRIKIaFt_Zglt9Ap4DnaxDGlqUbqi_fYuY/edit) 
 
 
 
---
---
+
+---
+---
 
 ## Speaker introduction (TODO)
 
