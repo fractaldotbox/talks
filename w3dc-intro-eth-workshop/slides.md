@@ -3,14 +3,11 @@
 theme: seriph
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
-background: https://cover.sli.dev
+# background: https://cover.sli.dev
 # some information about your slides (markdown enabled)
 title: W3DevC - Build on ETH Intro Workshop
 info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
-
-  Learn more at [Sli.dev](https://sli.dev)
+ ## Workshop by https://web3dev.community/
 # apply unocss classes to the current slide
 class: text-center
 # https://sli.dev/custom/highlighters.html
@@ -22,22 +19,16 @@ drawings:
 transition: slide-left
 # enable MDC Syntax: https://sli.dev/guide/syntax#mdc-syntax
 mdc: true
+layout: image
+image: https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=400,height=400/event-covers/2o/49e1bb41-4c13-4577-a7ac-b2c41f6fce5b
+
+backgroundSize: contain
 ---
 
-# W3DC - Build on ETH Intro Workshop
+<!-- W3DC - Build on ETH Intro Workshop -->
 
-In-person dev workshop in Singapore before ETHGlobalSG hackathon
+<!-- In-person dev workshop in Singapore before ETHGlobalSG hackathon -->
 
-
-<div class="abs-br m-6 flex gap-2">
-  <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon:edit />
-  </button>
-  <a href="https://github.com/slidevjs/slidev" target="_blank" alt="GitHub" title="Open in GitHub"
-    class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon-logo-github />
-  </a>
-</div>
 
 <!--
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
@@ -122,15 +113,15 @@ To get most out of it, you would have to spend a few hours on the reading lists,
 
 
 Hopefully you will have better ideas on some of the below questions to continue your dev journey
-- When do we want smart contracts for a project?
-- What are censorship resistence, provenance, immutability? 
-- How do I test against my dapp, without using real $ (Env & Testnets setup)
-- How's different to build apps on "L1 vs L2"? 
-- What are some notable dApps and how are they being built?
-- How can I deploy a smart contract?
+- What  are censorship resistance, provenance, immutability? 
+rovenance, immutability?
+- How do I deploy a contract, test against my dApp, without using real $ (Env & Testnets setup)?
+- How's it different to build apps on "L1 vs L2"? 
+- What are some notable dApps and how are they being built? Why Smart contract?
 - What are EOA, Smart accounts, Multi-sig, MPC wallets? 
 - How to improve transactions confirmations UX in Ethereum?
-- What are some hackathon projects that are pushing boundaries?
+- What are ERC721, 1155, 6551...which EIPs are must-read?
+- What are some creative or state-of-art example hackathon projects?
 
 ---
 ---
