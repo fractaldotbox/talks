@@ -128,6 +128,7 @@ Hopefully you will have better ideas on some of the below questions to continue 
 - How's different to build apps on "L1 vs L2"? 
 - What are some notable dApps and how are they being built?
 - How can I deploy a smart contract?
+- What are EOA, Smart accounts, Multi-sig, MPC wallets? 
 - How to improve transactions confirmations UX in Ethereum?
 - What are some hackathon projects that are pushing boundaries?
 
@@ -155,7 +156,7 @@ Hopefully you will have better ideas on some of the below questions to continue 
 - What is transaciton? 
 - What are some frequently talk about primiative such as hash, signatures, attetations?
 - What is EOA vs smart account?
-
+- Intuition / Application of Shamir secret sharing, MPC vs Multi-sig
 ---
 ---
 
