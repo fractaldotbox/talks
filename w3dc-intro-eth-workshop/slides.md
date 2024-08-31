@@ -113,8 +113,7 @@ To get most out of it, you would have to spend a few hours on the reading lists,
 
 
 Hopefully you will have better ideas on some of the below questions to continue your dev journey
-- What  are censorship resistance, provenance, immutability? 
-rovenance, immutability?
+- What are censorship resistance, provenance, immutability? 
 - How do I deploy a contract, test against my dApp, without using real $ (Env & Testnets setup)?
 - How's it different to build apps on "L1 vs L2"? 
 - What are some notable dApps and how are they being built? Why Smart contract?
@@ -132,26 +131,63 @@ rovenance, immutability?
 - How to launch a token
 
 
+## Speaker introduction (TODO)
+
+@Vincent
+- https://www.linkedin.com/in/vincentlaucy/
+- Organizer of Web3Dev.Community
+- Founder, Fractal Labs, Dev studio focusing AI-powered on-chain agents and CMS workflows
+- 12yr+ Founder/Tech Lead roles at Animoca, Pixelmon (Web3 VC/Game Studio), 5+ startups in EdTech, FinTech, Localization
+- 2x ETHGlobal Finalist with 25k+ prize
+
+@Aaron
+- https://www.linkedin.com/in/aaronstevensonlee
+- Engineering Manager and Dev Lead at Web3 VC, built staking protocols with millions+ TVL
+- 12yr+ Tech Lead roles at govTech & various startups
+
+---
+---
+
+# Agenda
+
+- #1 Whats dApp?
+- Break out session - wwere should I start?
+- #2 Typical dApp frontend
+- Bonus - Blinklab Demo 
+- #3 Solidity Intro
+- #4 Starting a project
+- Break out session - Q&A & hackathon project ideas 
+
 ---
 ---
 
 # Agenda - Part1 Draft
-30min session on "What is a dAPP"
+30min session on "What is a dAPP and how to build one?"
 - Dissecting dApp interactions on [Polymarket](https://polymarket.com/)
 - Dissecting a simple, past hackathong project such as [Vincent's past project](https://ethglobal.com/showcase/delegative-wwptp)
 
 - Why smart contract?
 - Why NFT?
 - What Ethereum/Blockchain helps to guarantee?
-- What is censorship resistence?
-- What is transaciton? 
+- What is IPFS and why? 
+  - immutability, censorship resistence, security
+- What are some buzzwords you hear often and you want to learn more?
+
+- What is a transaciton? 
 - What are some frequently talk about primiative such as hash, signatures, attetations?
 - What is EOA vs smart account?
 - Intuition / Application of Shamir secret sharing, MPC vs Multi-sig
 ---
 ---
 
+
+---
+
+
 # Agenda - Part2 Draft
+
+
+
 30min session to talk about typical dApp frontend
 - wagmi / rainbowkit setup
 - Checksummed address
@@ -160,6 +196,15 @@ rovenance, immutability?
 - How to use a blockchain explorer
 - Try a transaction on testnet
 - What is a Oracle?
+
+---
+---
+
+
+# Agenda - Bonus 
+
+- Demo from blinklabs.ai
+
 
 ---
 ---
@@ -178,10 +223,11 @@ Will not cover details of types, gas optimization tips
 ---
 
 # Agenda - Part4 Draft
-- 10-20min on networking / teammates matching
+- Notable hackathon projects
 - 10min on hackathon tips
 - Q&A session
 - Open mic to talk about potential hackathon project ideas
+- 10-20min on networking / teammates matching
 
 
 ---
@@ -195,7 +241,8 @@ Will not cover details of types, gas optimization tips
 - What is [Ethereum Name Service](https://docs.ens.domains/learn/protocol)
 - [Protocol Foundations 001: Cryptography](https://summerofprotocols.com/wp-content/uploads/2023/12/53-BEIKO-001-2023-12-13.pdf)
 - [Ethereum in 30 minutes by Vitalik Buterin](https://www.youtube.com/watch?v=UihMqcj-cqc)
-- WIP
+- [How IPFS works](https://docs.ipfs.tech/concepts/how-ipfs-works/)
+
 
 
 #### Recommended Reads
@@ -261,16 +308,3 @@ layout: two-cols
 
 ---
 ---
-
-## Speaker introduction (TODO)
-
-Vincent
-- https://www.linkedin.com/in/vincentlaucy/
-
-
-Aaron
-- https://www.linkedin.com/in/aaronstevensonlee
-
----
----
-
