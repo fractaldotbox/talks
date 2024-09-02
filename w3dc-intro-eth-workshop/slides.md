@@ -20,7 +20,7 @@ transition: slide-left
 # enable MDC Syntax: https://sli.dev/guide/syntax#mdc-syntax
 mdc: true
 layout: image
-image: https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=400,height=400/event-covers/2o/49e1bb41-4c13-4577-a7ac-b2c41f6fce5b
+image: w3dc_sep4.png
 
 backgroundSize: contain
 ---
@@ -33,6 +33,53 @@ backgroundSize: contain
 <!--
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
 -->
+
+---
+transition: fade-out
+---
+
+## Intro to Web3Dev.Community
+
+
+<img border="rounded" style="height: 450px;" src="image-15.png" alt="">
+
+
+---
+---
+
+## 
+<img border="rounded" style="height: 500px;" src="image-17.png" alt="">
+
+---
+layout: two-cols
+---
+
+# Thanks Road to DEVCON
+- Workshop sponsored by [Ethereum Foundation RTD Grant](https://devcon.org/en/road-to-devcon/)
+<img border="rounded" style="height: 100px;" src="image-12.png" alt="">
+
+- Largest Ethereum conference for developers, in SEA this year!
+- We're giving out discounted tickets ($49)
+
+
+::right::
+<img border="rounded" style="width: 600px;" src="image-13.png" alt="">
+
+
+
+
+---
+---
+
+## Where to found this slides & TG group
+
+<br /> 
+
+# https://web3dev.community/
+
+
+
+
 
 ---
 transition: fade-out
@@ -53,10 +100,21 @@ You're likely either
 - 🚀 **Technical Product People** - You don't code much at work but went through basic programming bootcamps, keen to understand more on web3 devs 
 
 
-<!--
-You can have `style` tag in markdown to override the style for the current page.
-Learn more: https://sli.dev/guide/syntax#embedded-styles
--->
+---
+---
+
+# Why workshop
+
+
+- Quickly changing space
+   - going to a crypto conference...
+     - ZK! FHE! Intent arch! Pre-confirmations!     
+   - "X is great and lets use X to solve your crypto problem"
+     - solution looking for problems
+
+
+- Things are sometimes easier from a Dev / CS angle
+
 
 <style>
 h1 {
@@ -70,15 +128,13 @@ h1 {
 }
 </style>
 
-<!--
-Here is another comment.
--->
 
 ---
 level: 2
 ---
 
 # Hows this workshop different - Goal
+
 
 <br />
 
@@ -89,6 +145,8 @@ This in-person workshop try to help you to
 - identify key fundamentals and trends
 - ask questions to senior industry particioners
 - find you hackathon teammates perhaps
+
+
 
 
 ---
@@ -102,7 +160,7 @@ We think a [Flipped classroom](https://en.wikipedia.org/wiki/Flipped_classroom) 
 - Workshop will prioritize showcase and Q&A to guide your future curriculum
 - ideally we will see each other during the hackathon
 
-It will be a after-work 4*30mins sessions with food.
+It will be a after-work 3*30mins sessions with food.
 
 To get most out of it, you would have to spend a few hours on the reading lists, tried to follow a few tutorials, have a brief project idea in mind and prepare for questions!
 
@@ -131,17 +189,28 @@ Hopefully you will have better ideas on some of the below questions to continue 
 - How to launch a token
 
 
-## Speaker introduction (TODO)
 
-@Vincent
-- https://www.linkedin.com/in/vincentlaucy/
+---
+layout: two-cols
+---
+
+# Speaker introduction 
+
+### @Vincent | [@debuggingfuture](https://x.com/debuggingfuture) | [Linkedin](https://www.linkedin.com/in/vincentlaucy/)
+
 - Organizer of Web3Dev.Community
-- Founder, Fractal Labs, Dev studio focusing AI-powered on-chain agents and CMS workflows
-- 12yr+ Founder/Tech Lead roles at Animoca, Pixelmon (Web3 VC/Game Studio), 5+ startups in EdTech, FinTech, Localization
-- 2x ETHGlobal Finalist with 25k+ prize
+- Founder@Fractal Labs
+  - Dev studio focusing AI-powered on-chain agents and CMS workflows
+- 12yr+ Founder/Tech Lead roles
+  - Animoca, Pixelmon (Web3 VC/Game Studio), 5+ startups in EdTech, FinTech, Localization
+- Msc CS, Msc Maths (WIP) - thus keen on the science  
+- 2x ETHGlobal Finalist with $25k+ prize
 
-@Aaron
-- https://www.linkedin.com/in/aaronstevensonlee
+::right::
+
+# 
+
+### @Aaron | [Linkedin](https://www.linkedin.com/in/aaronstevensonlee)
 - Engineering Manager and Dev Lead at Web3 VC, built staking protocols with millions+ TVL
 - 12yr+ Tech Lead roles at govTech & various startups
 
@@ -149,20 +218,21 @@ Hopefully you will have better ideas on some of the below questions to continue 
 ---
 
 # Agenda
-
-- #1 Whats dApp?
-- Break out session - wwere should I start?
-- #2 Typical dApp frontend
-- Bonus - Blinklab Demo 
-- #3 Solidity Intro
-- #4 Starting a project
-- Break out session - Q&A & hackathon project ideas 
+- 1845: Open floor & Networking
+- 1900-1910: Intro & Housekeeping
+- 1910-1930: #1 Whats dApp? Key concepts on ETH  
+- 1930-1945: Break out session - where should I start?
+- 1945-2010: #2 Typical dApp Frontend techstack
+- 2010-2020: Bonus - Blinklab Demo 
+- 2020-2050: #3 Solidity Intro
+- 2050-2100: Wrapup: Starting a project / Hackathon Tips
+- 2100: 📷! Networking🍷! Q&A & hackathon project ideas 
 
 ---
 ---
 
 # Agenda - Part1 Draft
-30min session on "What is a dAPP and how to build one?"
+30min session on #1 Whats dApp? Key concepts on ETH  
 - Dissecting dApp interactions on [Polymarket](https://polymarket.com/)
 - Dissecting a simple, past hackathong project such as [Vincent's past project](https://ethglobal.com/showcase/delegative-wwptp)
 
@@ -179,6 +249,32 @@ Hopefully you will have better ideas on some of the below questions to continue 
 - Intuition / Application of Shamir secret sharing, MPC vs Multi-sig
 ---
 ---
+
+
+
+---
+src: pages/part1.md
+---
+
+
+---
+---
+## Break out session
+Questions
+- Instructor's journey
+- What's background/journey? 
+- why are you here (learning Web3)?
+- What do you want to build/work at? 
+- Curriculum/Materials recommendations
+- What's X & Is X hard to learn?
+
+
+
+---
+src: pages/part2.md
+---
+
+
 
 
 ---
@@ -201,9 +297,41 @@ Hopefully you will have better ideas on some of the below questions to continue 
 ---
 
 
+
+## Journey of a transaction
+
+Vincent swap 0.02 ETH with Uniswap
+
+
+## "Connecting wallet" - Wait where is my key?
+- metamask
+- case of cold wallet / ledger
+- metamask could be UI or also the wallet 
+
+
+Metamask architecture
+- https://docs.metamask.io/wallet/concepts/architecture/
+
+
+## What hapepns
+https://www.reddit.com/r/ethereum/comments/10ug7cs/i_made_a_little_visual_aid_of_what_happens_when/
+
+
+![alt text](image-1.png)
+
+![alt text](image.png)
+
+
+
+
 # Agenda - Bonus 
 
 - Demo from blinklabs.ai
+
+---
+
+## Wagmi
+
 
 
 ---
@@ -230,6 +358,14 @@ Will not cover details of types, gas optimization tips
 - 10-20min on networking / teammates matching
 
 
+## Build
+- Richard Feynman
+ what I cannot create I do not understand
+
+
+Thank you! See you at hackathon
+
+
 ---
 ---
 
@@ -240,8 +376,27 @@ Will not cover details of types, gas optimization tips
 - [Scaffold ETH 🛠️ Building dApps Quickly](https://www.youtube.com/watch?v=Cg4uL6lnf-s)
 - What is [Ethereum Name Service](https://docs.ens.domains/learn/protocol)
 - [Protocol Foundations 001: Cryptography](https://summerofprotocols.com/wp-content/uploads/2023/12/53-BEIKO-001-2023-12-13.pdf)
-- [Ethereum in 30 minutes by Vitalik Buterin](https://www.youtube.com/watch?v=UihMqcj-cqc)
+- [Ethereum in 30 minutes by Vitalik Buterin](https://www.youtube.com/watch?v=UihMqcj-cqc) [Slides](https://hackmd.io/@vbuterin/ethereum_in_30_minutes)
 - [How IPFS works](https://docs.ipfs.tech/concepts/how-ipfs-works/)
+- [Ethereum Illustrated](https://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf) 
+
+
+Reading List #2
+
+## What kind of accounts and wallets are there?
+- Read EOA vs Contract Account https://ethereum.org/en/developers/docs/accounts/
+- what's "self-custodial"   https://learn.metamask.io/lessons/what-is-a-self-custody-wallet
+- What are Multsig & MPC? https://www.fireblocks.com/blog/mpc-vs-multi-sig/
+
+
+## How Ethereum Transaction works
+- Overview  https://ethereum.org/en/developers/docs/transactions/
+- What's an ABI of Smart contract https://www.alchemy.com/overviews/what-is-an-abi-of-a-smart-contract-examples-and-usage
+
+## What is gas and Why?
+Compute resource is finite - Gas mechanism helps to secure the network & avoid spam
+- Pay for what you compute/store https://ethereum.org/en/developers/docs/gas/
+- EVM opcode and "gas price tag" - https://www.evm.codes/
 
 
 
@@ -253,29 +408,21 @@ Will not cover details of types, gas optimization tips
 - WIP
 
 
----
----
-# Date & Venue 
 
 
-- 4th Sep 2024 (Wed)
-- AWS (TBC)
+## hackathons
+
+Check my last talk for more
 
 
-- *Subject to venue/speaker availabiliy
+Quick Tips
 
+1. Think about Ideas* before hand
 
+2. Start with working templates / POC on the tech stack before commitment
 
----
-layout: two-cols
----
+3. Submit video 2 hours earlier
 
-## Organizers
-
-- Web3Dev.Community
-  - We have hosted 6+ Dev meetups in Singapore with speakers from Filecoin, Coinbase, Chainlink, LiquidX and more web3 companies.
-
-<img border="rounded" style="height: 150px;" src="https://pbs.twimg.com/media/GL79t75bMAAafKb?format=jpg&name=large" alt="">
 
 
 
@@ -304,7 +451,29 @@ layout: two-cols
 - [Perks applying hackathon via WebDevCommunity](https://docs.google.com/forms/d/1ap40lW7jSZRIKIaFt_Zglt9Ap4DnaxDGlqUbqi_fYuY/edit) 
 
 
+---
+---
 
+
+## So much EIP
+- Don't start screening EIP specification
+- It's [literally a PR](https://github.com/ethereum/EIPs)
+- not created equal
+- (historic) context matters
+- very naturally run into them
+
+- Typical ones
+  - Tokens ERC20, ERC721, 1155
+  - EIP-1559
+  - Account abstraction EIP-4337
+  - EIP-4844: Proto-Danksharding
+  - ERC1967 Proxy
+
+
+
+
+[https://medium.com/1kxnetwork/wallets-91c7c3457578]
+(Seedless Self-Custody: On MPC and Smart Contract Wallets)
 
 ---
 ---
