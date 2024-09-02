@@ -64,8 +64,7 @@
 - literally before Ethereum
 
 
-
-## Byzantine Generals Problem
+## Byzantine Generals Problem (DYOR)
 
 - inaccurate time
 - subject to failures
@@ -74,18 +73,28 @@
 
 More - [Byzantine Generals Problem](https://medium.com/@ayogun/byzantine-generals-problem-a47b33ef87fc)
 
+
+---
+---
+
 ## Blockchain removes the FOG
+- enable Trust
 - incentivize actors
 - common world state
 
-## Vitalik's version
-![alt text](image-8.png)
 
-## Game-changing technology
+### Game-changing technology
 
 - enable new game theoretic mechanisms
 
 ![alt text](image-3.png)
+
+---
+---
+
+## Vitalik's version
+![alt text](image-8.png)
+
 
 
 ## Limitations of EOA
