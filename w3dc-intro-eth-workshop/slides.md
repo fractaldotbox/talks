@@ -225,17 +225,14 @@ layout: two-cols
 - 1945-2010: #2 Typical dApp Frontend techstack
 - 2010-2020: Bonus - Blinklab Demo 
 - 2020-2050: #3 Solidity Intro
-- 2050-2100: Wrapup: Starting a project / Hackathon Tips
+- 2050-2100: Outro - Starting a project / Hackathon Tips
 - 2100: 📷! Networking🍷! Q&A & hackathon project ideas 
 
 ---
 ---
-
+<!-- 
 # Agenda - Part1 Draft
 30min session on #1 Whats dApp? Key concepts on ETH  
-- Dissecting dApp interactions on [Polymarket](https://polymarket.com/)
-- Dissecting a simple, past hackathong project such as [Vincent's past project](https://ethglobal.com/showcase/delegative-wwptp)
-
 - Why smart contract?
 - Why NFT?
 - What Ethereum/Blockchain helps to guarantee?
@@ -246,14 +243,14 @@ layout: two-cols
 - What is a transaciton? 
 - What are some frequently talk about primiative such as hash, signatures, attetations?
 - What is EOA vs smart account?
-- Intuition / Application of Shamir secret sharing, MPC vs Multi-sig
+- Intuition / Application of Shamir secret sharing, MPC vs Multi-sig -->
 ---
 ---
 
 
 
 ---
-src: pages/part1.md
+src: part1.md
 ---
 
 
@@ -271,7 +268,7 @@ Questions
 
 
 ---
-src: pages/part2.md
+src: part2.md
 ---
 
 
@@ -417,7 +414,7 @@ Check my last talk for more
 
 Quick Tips
 
-1. Think about Ideas* before hand
+1. Think about Ideas* before hand and "know your Prizes"
 
 2. Start with working templates / POC on the tech stack before commitment
 

@@ -3,28 +3,47 @@
 # What's "dApp"?
 - De-Fi?
 - Identity?
-- on-chain activities
+- on-chain data & activities?
+- on top of some protocol?
 
----
----
-
-# Examples
+## Examples
 
 - [Uniswap](https://app.uniswap.org/)
 
 - [Polymarket](https://polymarket.com/)
 
-- Fileverse https://fileverse.io/
+- [Fileverse](https://fileverse.io/)
+
+We are going to Dissect
 
 ---
 ---
 
-## Why Blockchain
+# I don't know Solidity!
 
+- Build on others' protocol
+- Templates & Libraries
+- Work with smart contract dev / AI
+
+
+
+---
+---
+
+# Why Blockchain
 
 - Double spending problem
+  - Imagine you're buying food from different stores with a offline phone..
+  - OK We have entralized banks or VISA/Master
 
-![alt text](image-1.png)
+<img border="rounded" style="width: 500px;" src="image-16.png" alt="">
+
+- But we want a decentralized version? 
+
+---
+---
+
+## Blockchain.. as a distributed systems
 
 
 ### Consencus matters
@@ -34,11 +53,23 @@
 
 
 
-## Blockchain.. as a distributed systems
+## NFT
+- image
+- stored in IPFS
+- immutable 
+- censorship resistence
 
 ---
 ---
 
+
+
+
+![alt text](image-1.png)
+
+
+---
+---
 
 
 <!-- "On my disconnected smartphone, I still have $50" -->
@@ -52,7 +83,7 @@
 ## What is Txn
 ![alt text](image.png)
 
-## Notes distributed systems 
+## Notes distributed systems since 1970s...
 
 - Never truly absolute global time across systems
 
@@ -64,17 +95,43 @@
 - literally before Ethereum
 
 
+
 ## Byzantine Generals Problem (DYOR)
 
 - inaccurate time
 - subject to failures
 
-![alt text](image-7.png)
+![alt text](image-1_7.png)
 
 More - [Byzantine Generals Problem](https://medium.com/@ayogun/byzantine-generals-problem-a47b33ef87fc)
 
 
 ---
+---
+Why on chain
+
+- polymarket / trustless
+- nft / immutable / ownership  
+- autonomous world / agent params and action space
+- censorship resistant / tornado cash / someone stop you transfer a to b 
+Ofac
+- mirror / publishing vs facebook
+
+
+Polymarket prediction market
+- change trust assumptions
+- trustless, transparent 
+- enough liqudity
+
+
+Part1a
+Now we solve existential crisis
+Fall in love with eth 
+What happens under the hood
+
+
+---
+layout: two-cols
 ---
 
 ## Blockchain removes the FOG
@@ -82,6 +139,12 @@ More - [Byzantine Generals Problem](https://medium.com/@ayogun/byzantine-general
 - incentivize actors
 - common world state
 
+
+![alt text](image-18.png)
+
+::right::
+
+![alt text](image-19.png)
 
 ### Game-changing technology
 
@@ -93,7 +156,10 @@ More - [Byzantine Generals Problem](https://medium.com/@ayogun/byzantine-general
 ---
 
 ## Vitalik's version
-![alt text](image-8.png)
+![alt text](image-10.png)
+
+
+<!-- ![alt text](image-8.png) -->
 
 
 
@@ -143,6 +209,11 @@ Buying a coffee
 ## SSS
 - Matheamtical intutiion
 
+Core intuition is easy
+
+Only with enough points, uniquely determine the curve
+
+
 ### Multisig vs TSS vs MPC
 - cost, privacy concern
   - multisig = on-chain 
@@ -187,15 +258,6 @@ Split password
 - not the most secure ways for some obvious reason 
 Unfortunately I hv seen that in prod
 
-
----
-
-## I don't know Solidity!
-
-- Templates & Libraries
-- AI
-- Work with smart contract dev 
-- H
 
 
 ## How does your dApp talk to blockchain?
