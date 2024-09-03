@@ -89,9 +89,9 @@ transition: fade-out
 
 <br>
 
-This workshop is for developers who want to get started with Web3 dApp development on Ethereuem ecosystems. 
+Developers who want to get started with Web3 dApp development on Ethereuem ecosystems. 
 
-Most importantly, you plan to get your hands dirty, perhaps by participating a hackathon like [ETHGlobalSG](https://ethglobal.com/events/singapore2024) in Sep.   
+Who plans to get hands dirty, perhaps by joining [ETHGlobalSG](https://ethglobal.com/events/singapore2024) hackathon   
 
 You're likely either
 
@@ -114,6 +114,8 @@ You're likely either
 
 
 - Things are sometimes easier from a Dev / CS angle
+
+
 
 
 <style>
@@ -199,11 +201,12 @@ layout: two-cols
 ### @Vincent | [@debuggingfuture](https://x.com/debuggingfuture) | [Linkedin](https://www.linkedin.com/in/vincentlaucy/)
 
 - Organizer of Web3Dev.Community
-- Founder@Fractal Labs
-  - Dev studio focusing AI-powered on-chain agents and CMS workflows
+- Founder@Fractal Labs, ex-Web3 VC, Startups
+  <!-- - Dev studio focusing AI-powered on-chain agents and CMS workflows -->
 - 12yr+ Founder/Tech Lead roles
-  - Animoca, Pixelmon (Web3 VC/Game Studio), 5+ startups in EdTech, FinTech, Localization
-- Msc CS, Msc Maths (WIP) - thus keen on the science  
+  <!-- - Animoca, Pixelmon (Web3 VC/Game Studio), 5+ startups in EdTech, FinTech, Localization -->
+- Msc CS, Msc Maths (WIP)
+  <!-- - thus keen on the science   -->
 - 2x ETHGlobal Finalist with $25k+ prize
 
 ::right::
@@ -220,9 +223,9 @@ layout: two-cols
 # Agenda
 - 1845: Open floor & Networking
 - 1900-1910: Intro & Housekeeping
-- 1910-1930: #1 Whats dApp? Key concepts on ETH  
-- 1930-1945: Break out session - where should I start?
-- 1945-2010: #2 Typical dApp Frontend techstack
+- 1910-1945: #1 Whats dApp? Key concepts on ETH  
+- 1945-2000: Break out session - where should I start?
+- 2000-2010: #2 Typical dApp Frontend techstack
 - 2010-2020: Bonus - Blinklab Demo 
 - 2020-2050: #3 Solidity Intro
 - 2050-2100: Outro - Starting a project / Hackathon Tips
@@ -244,8 +247,6 @@ layout: two-cols
 - What are some frequently talk about primiative such as hash, signatures, attetations?
 - What is EOA vs smart account?
 - Intuition / Application of Shamir secret sharing, MPC vs Multi-sig -->
----
----
 
 
 
@@ -256,20 +257,20 @@ src: part1.md
 
 ---
 ---
-## Break out session
-Questions
-- Instructor's journey
-- What's background/journey? 
-- why are you here (learning Web3)?
-- What do you want to build/work at? 
-- Curriculum/Materials recommendations
-- What's X & Is X hard to learn?
+## Break out session - instructor AMA
 
+- Instructor's journey
+- What's your background? 
+- Why are you here? What do you want to build/work at? 
+- AMA
+  - Curriculum/Materials recommendations
+  - What's X & is X hard to learn?
 
 
 ---
 src: part2.md
 ---
+
 
 
 
@@ -300,11 +301,6 @@ src: part2.md
 Vincent swap 0.02 ETH with Uniswap
 
 
-## "Connecting wallet" - Wait where is my key?
-- metamask
-- case of cold wallet / ledger
-- metamask could be UI or also the wallet 
-
 
 Metamask architecture
 - https://docs.metamask.io/wallet/concepts/architecture/
@@ -327,13 +323,11 @@ https://www.reddit.com/r/ethereum/comments/10ug7cs/i_made_a_little_visual_aid_of
 
 ---
 
-## Wagmi
 
 
 
----
----
 
+<!-- 
 # Agenda - Part3 Solidity
 30min sesion to show and tell how smart contracts are being built.
 Will not cover details of types, gas optimization tips
@@ -344,15 +338,21 @@ Will not cover details of types, gas optimization tips
 - testnet faucets
 - moonshot: understand how to deploy a basic ERC20 staking contract with vesting
 
----
----
 
 # Agenda - Part4 Draft
 - Notable hackathon projects
 - 10min on hackathon tips
 - Q&A session
 - Open mic to talk about potential hackathon project ideas
-- 10-20min on networking / teammates matching
+- 10-20min on networking / teammates matching -->
+
+
+# Outro
+
+
+---
+layout: center
+---
 
 
 ## Build
@@ -422,13 +422,14 @@ Quick Tips
 
 
 
-
-
 <!-- <img border="rounded" src="https://pbs.twimg.com/profile_images/1639560056449662977/gyulatO2_400x400.jpg" alt=""> -->
 
 
 ::right::
 
+
+## Outro
+- 📷
 
 ## Community Partners
 

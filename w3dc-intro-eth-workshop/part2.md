@@ -1,28 +1,19 @@
-# Table of Contents
-
-Part 2
+# Recap
 
 ---
 
-
-## window.ethereum provider
-
-
-- On [uniswap](https://app.uniswap.org/)
-    - Try in Dev Console "window.ethereum"
-    - On incognito?
-    - Before & after unlocking metamask?
+# Lets start building
 
 
-- Try running the sample code in the spec
+Any template I can reference?
 
-<code>
-ethereum
-  .request({ method: 'eth_accounts' })
+---
 
-</code>
+## Scaffold ETH v2
 
-- https://eips.ethereum.org/EIPS/eip-1193
+- Open source with community
+- Typical techstack
+
 
 
 ---
@@ -64,14 +55,7 @@ DaisyUI for pre-built Tailwind CSS components.
 ---
 ---
 
-![alt text](image-8.png)
-
-
-## SCW
-- account abstraction 
-- change the flow
-
-![alt text](image-9.png)
+## Wagmi
 
 
 ## RainbowKit
