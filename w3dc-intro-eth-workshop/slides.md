@@ -19,20 +19,24 @@ drawings:
 transition: slide-left
 # enable MDC Syntax: https://sli.dev/guide/syntax#mdc-syntax
 mdc: true
-layout: image
-image: /w3dc_sep4.png
 
+layout: center
 backgroundSize: contain
 ---
 
 <!-- W3DC - Build on ETH Intro Workshop -->
 
 <!-- In-person dev workshop in Singapore before ETHGlobalSG hackathon -->
+<img border="rounded" style="height: 450px;" src="/w3dc_sep4.png" alt="">
+
 
 
 <!--
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
 -->
+
+
+
 
 ---
 transition: fade-out
