@@ -1,4 +1,0 @@
-import{o as s,c as a,k as r,g as n,q as i,s as c,A as t,e}from"./modules/vue-8M7_bU4y.js";import{I as l}from"./slidev/default-hQm8VmF9.js";import{u as p,f as m}from"./slidev/context-DmHddeu6.js";import"./index-YgUPD_Kp.js";import"./modules/shiki-BpHt4X3T.js";const d="/talks/w3dc-intro-eth-workshop/dist/assets/image-42-CxrsI3BK.png",u=e("p",null,[e("img",{src:d,alt:"alt text"})],-1),I={__name:"13",setup(_){const{$slidev:g,$nav:f,$clicksContext:k,$clicks:h,$page:x,$renderContext:v,$frontmatter:o}=p();return(w,C)=>(s(),a(l,i(c(t(m)(t(o),12))),{default:r(()=>[u,n(` ### @Aaron | [Linkedin](https://www.linkedin.com/in/aaronstevensonlee)
-- Engineering Manager and Dev Lead at Web3 VC, built staking protocols with millions+ TVL
-- 12yr+ Tech Lead roles at govTech & various startups
- `)]),_:1},16))}};export{I as default};

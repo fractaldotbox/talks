@@ -104,7 +104,7 @@ layout: image
 - 1945-2000: [🗣️ Break out session - where should I start?](/79)
 - 2000-2010: #2 Typical dApp Frontend techstack
 - 2010-2020: Bonus - Blinklab Demo 
-- 2020-2050: #3 Solidity Intro (/78)
+- 2020-2050: #3 Solidity Intro (/78) | [Slides](https://docs.google.com/presentation/d/13cIJrCbENRmpSCP-Xgm_APqDpipn3hC0FwZ1Mdq_SxU/edit?usp=sharing)
 - 2050-2100: Outro - Starting a project / Hackathon Tips (/79)
 - 2100: 📷! Networking🍷! Q&A & hackathon project ideas 
 
