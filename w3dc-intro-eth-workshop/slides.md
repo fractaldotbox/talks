@@ -76,7 +76,7 @@ just come to me for code -->
 
 
 ---
-layout: center
+layout: image
 ---
 
 ## Where to find this slides & TG group
@@ -85,12 +85,56 @@ layout: center
 
 # https://web3dev.community/
 
-![alt text](/image-56.png)
-
+<img border="rounded" style="width: 300px;" src="/image-56.png" alt="">
 
 
 ---
+---
+
+
+
+# Agenda
+- 1845:🍕 Open floor & Networking
+- 1900-1910: Intro & Housekeeping
+- 1910-1945: #1 Whats dApp? Key concepts on ETH  
+- 1945-2000: [🗣️ Break out session - where should I start?](/79)
+- 2000-2010: #2 Typical dApp Frontend techstack
+- 2010-2020: Bonus - Blinklab Demo 
+- 2020-2050: #3 Solidity Intro (/78)
+- 2050-2100: Outro - Starting a project / Hackathon Tips (/79)
+- 2100: 📷! Networking🍷! Q&A & hackathon project ideas 
+
+<!-- Explain the break out session -->
+
+---
 transition: fade-out
+---
+
+
+# Why intro workshop
+
+- I did Web2->3
+
+- Quickly changing space
+   - going to a crypto conference...
+     - ZK! FHE! Intent arch! Pre-confirmations!     
+   - "X is great and lets use X to solve your crypto problem"
+     - solution looking for problems
+
+
+- Things are sometimes easier from a Dev / CS angle
+
+<!-- 
+
+Ask: why here
+
+Needed somewhere to start
+
+
+Wish u hv more questions -->
+
+
+---
 ---
 
 # Who is this for
@@ -108,41 +152,9 @@ You're likely either
 - 🚀 **Technical Product People** - You don't code much at work but went through basic programming bootcamps, keen to understand more on web3 devs 
 
 
----
----
-
-# Why intro workshop
-
-- I did Web2->3. Need somewhere to start
-  - Wish u hv more questions
-
-- Quickly changing space
-   - going to a crypto conference...
-     - ZK! FHE! Intent arch! Pre-confirmations!     
-   - "X is great and lets use X to solve your crypto problem"
-     - solution looking for problems
 
 
-- Things are sometimes easier from a Dev / CS angle
-
-
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
-
-
----
-level: 2
----
+<!-- 
 
 # Hows this workshop different - Goal
 
@@ -155,7 +167,7 @@ This in-person workshop try to help you to
 - gain momentum, know where to start given your background
 - identify key fundamentals and trends
 - ask questions to senior industry particioners
-- find you hackathon teammates perhaps
+- find you hackathon teammates perhaps -->
 
 
 
@@ -257,23 +269,6 @@ layout: two-cols
  -->
 
 
-
----
----
-
-# Agenda
-- 1845:🍕 Open floor & Networking
-- 1900-1910: Intro & Housekeeping
-- 1910-1945: #1 Whats dApp? Key concepts on ETH  
-- 1945-2000: [🗣️ Break out session - where should I start?](/79)
-- 2000-2010: #2 Typical dApp Frontend techstack
-- 2010-2020: Bonus - Blinklab Demo 
-- 2020-2050: #3 Solidity Intro (/78)
-- 2050-2100: Outro - Starting a project / Hackathon Tips (/79)
-- 2100: 📷! Networking🍷! Q&A & hackathon project ideas 
-
----
----
 <!-- 
 # Agenda - Part1 Draft
 30min session on #1 Whats dApp? Key concepts on ETH  
@@ -403,6 +398,8 @@ September 20 – 22, 2024
 <img border="rounded" class="avatar-rounded" src="/image-41.png" style="height: 150px;"  alt=""> 
 </div>
  </div>
+
+<!-- https://meet.google.com/ufp-citm-tqk -->
 
 
 ---

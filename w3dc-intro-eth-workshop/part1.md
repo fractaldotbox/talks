@@ -2,7 +2,10 @@
 layout: center
 ---
 
-## Lets build!
+Hackathon coming up...
+
+
+Lets build!
 
 
 ---
@@ -246,6 +249,8 @@ Enabling new game theoretic mechanisms
 
 <!-- 
 
+Ethereum special = programmable
+
 hanging out with core devs 
 spent lots of time talking abt mevs etc
 
@@ -259,8 +264,19 @@ spent lots of time talking abt mevs etc
 <img border="rounded" style="width: 500px;" src="/image-1_11.png" alt="" />
 
 <!-- 
+
+
+highlight on network effect
+
+we covered the trust
+
+we're early here to discover together
+
+
 Vitalik on usefulness
 https://x.com/VitalikButerin/status/1819146290271490403 -->
+
+
 
 
 ---
@@ -303,10 +319,10 @@ layout: two-cols
 # Digital Asset
 
 ### NFT
-- on-chain token (ERC721/1155)
+- On-chain token (ERC721/1155 - Smart contract)
 - image usually on IPFS
-  - immutable
-- censorship resistant
+  - Immutable
+- Censorship resistant
 - Trustless royalties..can we?
   - Short ans: not on L1
 
