@@ -73,7 +73,7 @@ layout: center
   - OK We have entralized banks or VISA/Master...
   - Ok We don't trust them. Lets decentralize
 
-<img border="rounded" style="width: 500px;" src="image-16.png" alt="">
+<img border="rounded" style="width: 500px;" src="/image-16.png" alt="">
 
 
 ---
@@ -83,7 +83,7 @@ layout: two-cols
 # Blockchain (since 1982)
 ## 
 
-![alt text](image-7.png)
+![alt text](/image-7.png)
 ::right::
 
 ## 
@@ -96,7 +96,7 @@ layout: two-cols
 
 ##### [📖Read More - Alchemy](https://docs.alchemy.com/docs/utxo-vs-account-models#:~:text=Ethereum's%20account%2Dbased%20transactions%20must,simple%20and%20stateless%20as%20possible.)
 
-![alt text](image-1.png)
+![alt text](/image-1.png)
 
 ---
 layout: center
@@ -113,7 +113,7 @@ layout: center
 
 #### notes from my uni days (2010...literally Before.ETH.)
 
-<img border="rounded" style="width: 450px;" src="image-1_2.png" alt="">
+<img border="rounded" style="width: 450px;" src="/image-1_2.png" alt="">
 
 
 - Never truly absolute global time across systems
@@ -133,12 +133,12 @@ layout: two-cols
 - inaccurate time, failures, dishonest actors etc...
 
 
-<img border="rounded" style="width: 500px;" src="image-1_7.png" alt="">
+<img border="rounded" style="width: 500px;" src="/image-1_7.png" alt="">
 
 <br />
 
 
-<img border="rounded" style="width: 400px;" src="image-21.png" alt="">
+<img border="rounded" style="width: 400px;" src="/image-21.png" alt="">
 ::right::
 
 
@@ -158,11 +158,11 @@ layout: two-cols
 
 - inaccurate time, failures, dishonest actors etc...
 
-<img border="rounded" style="width: 400px;" src="image-1_7.png" alt="">
+<img border="rounded" style="width: 400px;" src="/image-1_7.png" alt="">
 
 ::right::
 
-![alt text](image-18.png)
+![alt text](/image-18.png)
 
 FoW (Fog of war)...
 <br/>
@@ -175,7 +175,7 @@ FoW (Fog of war)...
 
 ## "Byzantine Fault Tolerance"
 
-<img border="rounded" style="width: 500px;" src="image-1_7.png" alt="">
+<img border="rounded" style="width: 500px;" src="/image-1_7.png" alt="">
 
 - [algorithms like pBFT - since 90s](https://www.geeksforgeeks.org/practical-byzantine-fault-tolerancepbft/)
 
@@ -198,7 +198,7 @@ layout: two-cols
 ### adds new ways for coordinations 
 
 ## 
-![alt text](image-18.png)
+![alt text](/image-18.png)
 
 - transparent, common world state
 - trustless mechanisms
@@ -211,7 +211,7 @@ layout: two-cols
 <br />
 <br />
 
-![alt text](image-19.png)
+![alt text](/image-19.png)
 
 ---
 ---
@@ -220,7 +220,7 @@ layout: two-cols
 
 <br />
 
-<img border="rounded" style="width: 600px;" src="image-25.png" alt="">
+<img border="rounded" style="width: 600px;" src="/image-25.png" alt="">
 
 
 
@@ -233,7 +233,7 @@ layout: center
 
 <a href="https://medium.com/@virgilgr/ethereum-is-game-changing-technology-literally-d67e01a01cf8">
 
-<img border="rounded" style="width: 600px;" src="image-1_3.png" alt="">
+<img border="rounded" style="width: 600px;" src="/image-1_3.png" alt="">
 </a>
 
 Enabling new game theoretic mechanisms
@@ -244,7 +244,7 @@ Enabling new game theoretic mechanisms
 
 ## Vitalik's version
 
-<img border="rounded" style="width: 500px;" src="image-1_11.png" alt="" />
+<img border="rounded" style="width: 500px;" src="/image-1_11.png" alt="" />
 
 
 
@@ -287,7 +287,7 @@ layout: two-cols
 
 ::right::
 
-![alt text](image-27.png)
+![alt text](/image-27.png)
 
 
 
@@ -301,7 +301,7 @@ layout: two-cols
 - on-chain prediction market
 <div style="padding:10px;">
 
-<img border="rounded" style="width: 400px;" src="image-26.png" alt=""> 
+<img border="rounded" style="width: 400px;" src="/image-26.png" alt=""> 
 </div>
 ::right::
 
@@ -350,7 +350,7 @@ Ofac
 - mirror / publishing vs facebook -->
 
 
-<!-- ![alt text](image-1.png) -->
+<!-- ![alt text](/image-1.png) -->
 
 
 # OK Now we solved existential crisis
@@ -359,7 +359,7 @@ Ofac
 
 
 
-<img border="rounded" style="width: 300px;" src="image-22.png" alt="">
+<img border="rounded" style="width: 300px;" src="/image-22.png" alt="">
 
 
 
@@ -382,7 +382,7 @@ layout: two-cols
 
 ::right::
 
-![alt text](image-29.png)
+![alt text](/image-29.png)
 
 ---
 layout: center
@@ -401,7 +401,7 @@ layout: two-cols
 <!-- - EOA
   - external as in blockchain do not run code in it -->
 
-![alt text](image-30.png)
+![alt text](/image-30.png)
 
 - you signs transactions for it!
 
@@ -411,7 +411,7 @@ layout: two-cols
 ### You signs txn for it!
 
 
-<img border="rounded" style="width: 500px;" src="image-32.png" alt="">
+<img border="rounded" style="width: 500px;" src="/image-32.png" alt="">
 
 
 ---
@@ -423,7 +423,7 @@ layout: two-cols
 - Deep Dive
   - [Understanding Cryptography](https://link.springer.com/book/10.1007/978-3-642-04101-3)
   - [Read World Cryptography](https://www.manning.com/books/real-world-cryptography)
-<!-- ![alt text](image-8.png)  -->
+<!-- ![alt text](/image-8.png)  -->
 
 
 ---
@@ -441,14 +441,14 @@ Case of Metamask Browser extension
 ::right::
 
 
-![alt text](image-31.png)
+![alt text](/image-31.png)
 
 ---
 ---
 
 ## Wallets. Wallets everywhere 
 
-![alt text](image-10.png)
+![alt text](/image-10.png)
 
 
 
@@ -464,7 +464,7 @@ Case of Metamask Browser extension
 - account abstraction 
 - change the flow
 
-<!-- ![alt text](image-9.png) -->
+<!-- ![alt text](/image-9.png) -->
 
 
 
@@ -494,13 +494,13 @@ stateless, light-weight remote procedure call (RPC) protocol
 
 Simplified
 <br/>
-<img border="rounded" style="width: 500px;" src="image.png" alt="">
+<img border="rounded" style="width: 500px;" src="/image.png" alt="">
 
 ---
 ---
 
 <!-- rpc -->
-<!-- ![alt text](image-28.png) -->
+<!-- ![alt text](/image-28.png) -->
 
 
 # in your browser: window.ethereum 
@@ -534,7 +534,7 @@ ethereum
 ---
 
 
-<!-- ![alt text](image-8.png) -->
+<!-- ![alt text](/image-8.png) -->
 
 # 2 practical types of txn
 
@@ -582,24 +582,24 @@ Only with enough points, uniquely determine the curve
   - smart contract upgrade  
 
 
-![alt text](image-2.png)
+![alt text](/image-2.png)
 
 
 ## Transactions
-![alt text](image-6.png)
-![alt text](image-4.png)
+![alt text](/image-6.png)
+![alt text](/image-4.png)
 
 
 ## EVM / solidity
 
-![alt text](image-7.png)
+![alt text](/image-7.png)
 
-![alt text](image-5.png)
+![alt text](/image-5.png)
 
 ## Gas
 
 
-![alt text](image-3.png)
+![alt text](/image-3.png)
 
 
 https://x.com/VitalikButerin/status/1819146290271490403

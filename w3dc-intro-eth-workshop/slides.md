@@ -41,14 +41,14 @@ transition: fade-out
 ## Intro to Web3Dev.Community
 
 
-<img border="rounded" style="height: 450px;" src="image-15.png" alt="">
+<img border="rounded" style="height: 450px;" src="/image-15.png" alt="">
 
 
 ---
 ---
 
 ## 
-<img border="rounded" style="height: 500px;" src="image-17.png" alt="">
+<img border="rounded" style="height: 500px;" src="/image-17.png" alt="">
 
 ---
 layout: two-cols
@@ -56,14 +56,14 @@ layout: two-cols
 
 # Thanks Road to DEVCON
 - Workshop sponsored by [Ethereum Foundation RTD Grant](https://devcon.org/en/road-to-devcon/)
-<img border="rounded" style="height: 100px;" src="image-12.png" alt="">
+<img border="rounded" style="height: 100px;" src="/image-12.png" alt="">
 
 - Largest Ethereum conference for developers, in SEA this year!
 - We're giving out discounted tickets ($49)
 
 
 ::right::
-<img border="rounded" style="width: 600px;" src="image-13.png" alt="">
+<img border="rounded" style="width: 600px;" src="/image-13.png" alt="">
 
 
 
@@ -310,9 +310,9 @@ Metamask architecture
 https://www.reddit.com/r/ethereum/comments/10ug7cs/i_made_a_little_visual_aid_of_what_happens_when/
 
 
-![alt text](image-1.png)
+![alt text](/image-1.png)
 
-![alt text](image.png)
+![alt text](/image.png)
 
 
 
