@@ -20,7 +20,7 @@ transition: slide-left
 # enable MDC Syntax: https://sli.dev/guide/syntax#mdc-syntax
 mdc: true
 layout: image
-image: w3dc_sep4.png
+image: /w3dc_sep4.png
 
 backgroundSize: contain
 ---
@@ -45,10 +45,13 @@ transition: fade-out
 
 
 ---
----
 
 ## 
 <img border="rounded" style="height: 500px;" src="/image-17.png" alt="">
+
+<!--
+test
+-->
 
 ---
 layout: two-cols
@@ -65,13 +68,18 @@ layout: two-cols
 ::right::
 <img border="rounded" style="width: 600px;" src="/image-13.png" alt="">
 
+<!-- Prevly Columbia, Mexico, Berlin
 
+They are supporting local communities like us
+
+just come to me for code -->
 
 
 ---
+layout: center
 ---
 
-## Where to found this slides & TG group
+## Where to find this slides & TG group
 
 <br /> 
 
@@ -169,6 +177,7 @@ To get most out of it, you would have to spend a few hours on the reading lists,
 ---
 
 
+
 # Guiding Questions
 
 
@@ -198,37 +207,68 @@ layout: two-cols
 
 # Speaker introduction 
 
-### @Vincent | [@debuggingfuture](https://x.com/debuggingfuture) | [Linkedin](https://www.linkedin.com/in/vincentlaucy/)
+#### @Vincent | [@debuggingfuture](https://x.com/debuggingfuture) | [Linkedin](https://www.linkedin.com/in/vincentlaucy/)
+
 
 - Organizer of Web3Dev.Community
-- Founder@Fractal Labs, ex-Web3 VC, Startups
+- Founder@Fractal Labs = Dev Studio
   <!-- - Dev studio focusing AI-powered on-chain agents and CMS workflows -->
 - 12yr+ Founder/Tech Lead roles
-  <!-- - Animoca, Pixelmon (Web3 VC/Game Studio), 5+ startups in EdTech, FinTech, Localization -->
+  <!-- - Animoca, Pixelmon (Web3 VC/Game Studio)
+  - 5+ startups in EdTech, FinTech, Localization -->
 - Msc CS, Msc Maths (WIP)
-  <!-- - thus keen on the science   -->
+
 - 2x ETHGlobal Finalist with $25k+ prize
 
 ::right::
 
-# 
+<img border="rounded" class="avatar-rounded" src="/image-43.png" style="height:150px" alt=""> 
+<br />
+<img border="rounded" src="/image-44.png" style="height:100px" alt="">
+<div style="display:flex;">
+<img border="rounded" src="/image-45.png" style="height:50px" alt="">
+<img border="rounded" src="/image-46.png" style="height:50px" alt="">
 
-### @Aaron | [Linkedin](https://www.linkedin.com/in/aaronstevensonlee)
+</div>
+
+
+  <!-- 
+  
+  Not an OG. Relatively late
+
+  Went through Web2->3 journey
+
+  Do hv a background in CS
+  Bring this up as eth community 
+  
+
+    -->
+
+---
+---
+
+![alt text](/image-42.png)
+
+
+<!-- ### @Aaron | [Linkedin](https://www.linkedin.com/in/aaronstevensonlee)
 - Engineering Manager and Dev Lead at Web3 VC, built staking protocols with millions+ TVL
 - 12yr+ Tech Lead roles at govTech & various startups
+ -->
+
+
 
 ---
 ---
 
 # Agenda
-- 1845: Open floor & Networking
+- 1845:🍕 Open floor & Networking
 - 1900-1910: Intro & Housekeeping
 - 1910-1945: #1 Whats dApp? Key concepts on ETH  
-- 1945-2000: Break out session - where should I start?
+- 1945-2000: [🗣️ Break out session - where should I start?](/79)
 - 2000-2010: #2 Typical dApp Frontend techstack
 - 2010-2020: Bonus - Blinklab Demo 
 - 2020-2050: #3 Solidity Intro
-- 2050-2100: Outro - Starting a project / Hackathon Tips
+- 2050-2100: Outro - Starting a project / Hackathon Tips (/80)
 - 2100: 📷! Networking🍷! Q&A & hackathon project ideas 
 
 ---
@@ -274,56 +314,18 @@ src: part2.md
 
 
 
-
----
-
-
-# Agenda - Part2 Draft
-
-
-
-30min session to talk about typical dApp frontend
-- wagmi / rainbowkit setup
-- Checksummed address
-- ENS
-- Scaffold ETH
-- How to use a blockchain explorer
-- Try a transaction on testnet
-- What is a Oracle?
-
----
----
-
-
-
-## Journey of a transaction
-
-Vincent swap 0.02 ETH with Uniswap
-
-
-
-Metamask architecture
-- https://docs.metamask.io/wallet/concepts/architecture/
-
-
-## What hapepns
-https://www.reddit.com/r/ethereum/comments/10ug7cs/i_made_a_little_visual_aid_of_what_happens_when/
-
-
-![alt text](/image-1.png)
-
-![alt text](/image.png)
-
-
-
-
 # Agenda - Bonus 
 
 - Demo from blinklabs.ai
 
 ---
+---
 
+## Solidity
 
+By Aaron
+
+[Slides](https://docs.google.com/presentation/d/13cIJrCbENRmpSCP-Xgm_APqDpipn3hC0FwZ1Mdq_SxU/edit?usp=sharing)
 
 
 
@@ -347,20 +349,130 @@ Will not cover details of types, gas optimization tips
 - 10-20min on networking / teammates matching -->
 
 
-# Outro
-
-
 ---
 layout: center
 ---
 
 
-## Build
-- Richard Feynman
- what I cannot create I do not understand
+## Outro
+
+<img border="rounded" src="/image-55.png" style="height: 150px;" alt=""> 
 
 
-Thank you! See you at hackathon
+<br />
+ 
+ ```What I cannot create, I do not understand```
+
+\- Richard Feynman
+
+
+
+
+
+
+
+<!-- ## Outro -->
+
+---
+layout: center
+---
+
+## See you in the hackathon!
+
+<a href="">
+  <img style="height: 100px;" src="https://ethglobal.storage/events/singapore2024/logo/default">
+</img></a>
+
+
+September 20 – 22, 2024
+
+[Perks applying hackathon via WebDev.Community](https://docs.google.com/forms/d/1ap40lW7jSZRIKIaFt_Zglt9Ap4DnaxDGlqUbqi_fYuY/edit) 
+
+<br />
+
+
+
+<div style="display:flex; flex-direction: column; align-items: middle; justify-content:center; ">
+<div>
+@cxqmaggie ETHGlobal
+</div>
+<div>
+<img border="rounded" class="avatar-rounded" src="/image-41.png" style="height: 150px;"  alt=""> 
+</div>
+ </div>
+
+
+---
+---
+
+## Quick Tips
+
+
+Find your teammates, may be here!
+
+1. Think about Ideas* before hand and "know your Prizes"
+
+2. Start with working templates / POC on the tech stack before commitment
+
+3. Submit video 2 hours earlier
+
+
+Vincent's talk on "Hacking Hackathons" - [Video](https://youtu.be/Wc_Aon3iCas?si=MGB6mqDMTgaCjShs&t=4426) | [Slides](https://fractaldotbox.github.io/talks/hacking-hackathons/)
+
+<!-- <img border="rounded" src="https://pbs.twimg.com/profile_images/1639560056449662977/gyulatO2_400x400.jpg" alt=""> -->
+
+
+
+---
+---
+
+# Thank you! 📷
+
+
+
+#### Community Partners
+
+
+<a href="https://talentweb3.co/">
+
+<img border="rounded" style="height: 50px;" src="https://framerusercontent.com/images/i5WDhu5qjzWfi39Bwi6iEHJcuk.svg" alt="">
+</a>
+
+<img border="rounded" style="height: 50px;" src="https://assets-global.website-files.com/62428ba0955ccb660b2e7f1f/6452078557541f634286d1ef_Vectors-Wrapper.svg" alt="">
+
+<img border="rounded" style="height: 50px;" src="/image-55.png" alt="">
+
+### Sponsors
+
+<img border="rounded" style="height: 100px;" src="/image-12.png" alt="">
+
+---
+---
+
+
+## So much EIP
+- Don't start screening EIP specification
+- It's [literally a PR](https://github.com/ethereum/EIPs)
+- not created equal
+- (historic) context matters
+- very naturally run into them
+
+- Typical ones
+  - Tokens ERC20, ERC721, 1155
+  - EIP-1559
+  - Account abstraction EIP-4337
+  - EIP-4844: Proto-Danksharding
+  - ERC1967 Proxy
+
+
+
+
+[https://medium.com/1kxnetwork/wallets-91c7c3457578]
+(Seedless Self-Custody: On MPC and Smart Contract Wallets)
+
+---
+---
+
 
 
 ---
@@ -402,93 +514,4 @@ Compute resource is finite - Gas mechanism helps to secure the network & avoid s
 - [Vitalik Buterin | Ethereum's Past, Present, Future & Thoughts on Türkiye](https://www.youtube.com/watch?v=MWaNej58Wn0)
   - Vitalik talked about UX problems, Client centralizations, L2 fragmentations, Sharding etc in the video, helpful to get a glance at how the ecosystems is evolving
 - [Protocol Wiki](https://epf.wiki/)
-- WIP
 
-
-
-
-## hackathons
-
-Check my last talk for more
-
-
-Quick Tips
-
-1. Think about Ideas* before hand and "know your Prizes"
-
-2. Start with working templates / POC on the tech stack before commitment
-
-3. Submit video 2 hours earlier
-
-
-Vincent's talk on "Hacking Hackathons" - [Video](https://youtu.be/Wc_Aon3iCas?si=MGB6mqDMTgaCjShs&t=4426) | [Slides](https://fractaldotbox.github.io/talks/hacking-hackathons/)
-
-<!-- <img border="rounded" src="https://pbs.twimg.com/profile_images/1639560056449662977/gyulatO2_400x400.jpg" alt=""> -->
-
-
-::right::
-
-----
-
-
-
-## Outro
-
-
-## see you in the hackathon
-
-<a href="">
-  <img style="height: 100px;" src="https://ethglobal.storage/events/singapore2024/logo/default">
-</img></a>
-
-- [Perks applying hackathon via WebDevCommunity](https://docs.google.com/forms/d/1ap40lW7jSZRIKIaFt_Zglt9Ap4DnaxDGlqUbqi_fYuY/edit) 
-
-
-
----
----
-
-# Thank you! 📷
-
-
-
-
-## Community Partners
-
-
-<a href="https://talentweb3.co/">
-
-<img border="rounded" style="height: 100px;" src="https://framerusercontent.com/images/i5WDhu5qjzWfi39Bwi6iEHJcuk.svg" alt="">
-</a>
-
-<img border="rounded" style="height: 100px;" src="https://assets-global.website-files.com/62428ba0955ccb660b2e7f1f/6452078557541f634286d1ef_Vectors-Wrapper.svg" alt="">
-
-
-
-
----
----
-
-
-## So much EIP
-- Don't start screening EIP specification
-- It's [literally a PR](https://github.com/ethereum/EIPs)
-- not created equal
-- (historic) context matters
-- very naturally run into them
-
-- Typical ones
-  - Tokens ERC20, ERC721, 1155
-  - EIP-1559
-  - Account abstraction EIP-4337
-  - EIP-4844: Proto-Danksharding
-  - ERC1967 Proxy
-
-
-
-
-[https://medium.com/1kxnetwork/wallets-91c7c3457578]
-(Seedless Self-Custody: On MPC and Smart Contract Wallets)
-
----
----

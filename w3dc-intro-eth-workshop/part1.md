@@ -246,6 +246,9 @@ Enabling new game theoretic mechanisms
 
 <img border="rounded" style="width: 500px;" src="/image-1_11.png" alt="" />
 
+<!-- 
+Vitalik on usefulness
+https://x.com/VitalikButerin/status/1819146290271490403 -->
 
 
 ---
@@ -368,15 +371,16 @@ layout: two-cols
 ---
 
 
-# Lets talk abt something simple
+# Let's talk sth "simple"
 
-### Swapping on Uniswap...
+### Swapping on Uniswap(DEX)...
 
 1. Connect
 2. Select on UI
 2. (Approve ERC20 allowance)
 3. Sign Transaction!
-4. Done, Easy! ignoring how AMM works
+4. Done, Easy! 
+...ignoring how AMM works
 
 
 
@@ -387,7 +391,56 @@ layout: two-cols
 ---
 layout: center
 ---
+Swapping on Uniswap...
+Sign Transaction
+<br />
+<br /> Wait. We have to pay gas.
 
+---
+layout: image-right
+image: /image-50.png
+---
+
+# What Gas? Why? 
+
+### Compute resource is finite 
+- Gas mechanism helps to secure the network & avoid spam
+
+- [Pay for what you compute/store](https://ethereum.org/en/developers/docs/gas/)
+- EVM opcode and "gas price tag" https://www.evm.codes/
+
+- [EIP-1559 = fee market mechanisms](https://consensys.io/blog/what-is-eip-1559-how-will-it-change-ethereum)
+  - [📖Inevitable Ethereum](https://inevitableeth.com/home/ethereum/network/consensus/eip-1559)
+
+<!-- 
+Reading the yello paper
+You will find a menu like a cafe
+
+A lot of technical implications
+ -->
+
+
+---
+layout: image-right
+image: /image-49.png
+---
+
+# Gas on L2 are quite low
+
+
+[l2fees.info](https://l2fees.info/)
+
+L1 base fee + L2 (sequencer fee)
+
+<!-- <img border="rounded" style="width: 300px;" src="/image-49.png" alt=""> -->
+
+
+
+
+---
+layout: center
+---
+Swapping on Uniswap...
 "Connecting wallet" - Wait. how my wallet works?
 
 
@@ -406,6 +459,17 @@ layout: two-cols
 - you signs transactions for it!
 
 <small>  we have both for some historical reasons <br/>- [📖Vitalik Buterin - a history of account abstraction](https://www.youtube.com/watch?v=iLf8qpOmxQc) </small>
+
+<!-- 
+## Limitations of EOA
+
+### Real world metaphor
+
+Buying a coffee
+- Passing your coffee loyalty card to your friend.. OK 
+- Passing your whole wallet with all your ATM password.. wait
+ -->
+
 
 ---
 ---
@@ -445,6 +509,15 @@ Case of Metamask Browser extension
 
 ![alt text](/image-31.png)
 
+---
+---
+# Custodial vs non custodial (DYOR)
+
+- custodial..defeat the purpose?
+
+- semi-custodial
+![alt text](/image-51.png)
+
 
 ---
 layout: center
@@ -461,7 +534,13 @@ layout: center
 ## Wallets. Wallets everywhere 
 
 - (and no perfect way to categorize them)
-![alt text](/image-10.png)
+
+<img border="rounded" style="width: 600px;" src="/image-10.png" alt="">
+
+
+<!-- 
+we have some wallet expert here...
+ -->
 
 
 ---
@@ -540,9 +619,10 @@ Fiat ~ - Company Treasury with motion from Board of directors
 
 
 ---
+layout: two-cols
 ---
 
-# ok you want 1 key M parties
+## ok you want 1 key M parties
 
 <br />
 
@@ -555,23 +635,34 @@ Naively... sharing a password
 wB9V | EqJ_.yq | wdqPk 
 </code>
 
+<br />
+<br />
+Ok. Better ways with Cryptography™️
 
-<br />
-<br />
-<br />
-<br />
-Ok. We have better ways
 
+::right::
+
+
+<img border="rounded" style="width: 400px;" src="/image-48.png" alt="">
+
+
+
+
+<!-- 
+I want my team to have control..
+
+- not the most secure ways for some obvious reason 
+Unfortunately I hv seen that in prod in some big VC -->
 
 ---
-layout: two-cols
+<!-- layout: two-cols -->
 ---
 
-# SSS - Shamir's secret sharing
+# SSS - Shamir's Secret Sharing (scheme)
 ## 
 <b style="color:yellow;"> 1 Acc | 1 signature | 1 Key | N Parties </b>
 
-![alt text](image-35.png)
+![alt text](/image-35.png)
 
 - possible to replace key shard
 
@@ -584,7 +675,7 @@ layout: two-cols
 ---
 ---
 
-# SSS - "K points to find polynomial"
+# SSS - "K points to find polynomial" (DYOR)
 
 <SlidevVideo style="height:400px;" v-click autoplay controls>
   <!-- Anything that can go in an HTML video element. -->
@@ -600,6 +691,11 @@ layout: two-cols
 
 [Visualized by Evervault](https://evervault.com/blog/shamir-secret-sharing)
 
+<!-- 
+Core intuition is easy
+
+If and only if sufficient points, uniquely determine the curve & secrets -->
+
 ---
 ---
 
@@ -608,13 +704,16 @@ layout: two-cols
 ## 
 <b style="color:yellow;"> 1 Acc | 1 signature | 0 Key | N Parties </b>
 
-- "the key" never appears
-- used not only in wallet, e.g. [TLSNotary](https://tlsnotary.org/)
+- "the key" never appears = more secure
 
----
----
+- used not only in wallet signing
+  - e.g. calculate sum of a teams salaries without sharing their salaries explicitly
+  - e.g. [TLSNotary](https://tlsnotary.org/)
 
-
+- ~~magic~~ just cryptography. Since 1982
+  - Fast enough now
+  - [📖 MPC 101](https://www.fireblocks.com/what-is-mpc/)
+  - [📖 MPC by Evervault](https://evervault.com/blog/multi-party-computation)
 
 
 
@@ -625,10 +724,6 @@ layout: two-cols
   <!-- https://mmasmoudi.medium.com/an-overview-of-multi-party-computation-mpc-threshold-signatures-tss-and-mpc-tss-wallets-4253adacd1b2 -->
 
 
----
----
-
-
 
 ---
 layout: two-cols
@@ -636,201 +731,40 @@ layout: two-cols
 
 # Good to deep dive for hackathon
 
-Many ideas around
-  - Improve Ethereum UX
-  - Innovation with Programmable wallet/keys 
-- =Wallet innovations
-- =Signing mechansims (attestation too)
 
-::right::
-
-<br />
-<br />
-
-### often bounties from infra
-
-- most likley you need one anyway
-
-<img border="rounded" style="width: 400px;" src="/image-36.png" alt="">
-
-
-<img border="rounded" style="width: 200px;" src="/image-37.png" alt="">
-
-
----
-layout: center
----
-Swapping on Uniswap...
-<br /> Wait. How the dApp talk to the blockchain?
-
-
-
----
-layout: center
----
-APIs!
-<br />
-specifically, JSON-RPC
-<br />
-stateless, light-weight remote procedure call (RPC) protocol
-
----
----
-## What happens with a txn
-
-Simplified
-<br/>
-<img border="rounded" style="width: 500px;" src="/image.png" alt="">
-
----
----
-
-<!-- rpc -->
-<!-- ![alt text](/image-28.png) -->
-
-
-# in your browser: window.ethereum 
-
-
-
-- On [Uniswap](https://app.uniswap.org/) with metamask
-    - Try in Dev Console "window.ethereum"
-    - On incognito?
-    - Before & after unlocking metamask?
-
-- [EIP-1193](https://eips.ethereum.org/EIPS/eip-1193)
-
-- Metamask injected the window.ethereum provider
-
-- Try running the sample code in the spec, e.g.
-
-<code>
-ethereum
-  .request({ method: 'eth_accounts' })
-
-</code>
-
-
----
----
-
-# What happens under the hood
-
----
----
-
-
-<!-- ![alt text](/image-8.png) -->
-
-# 2 practical types of txn
-
-
-## Limitations of EOA
-
-### Real world metaphor
-
-Buying a coffee
-- Passing your coffee loyalty card to your friend.. OK 
-- Passing your whole wallet with all your ATM password.. wait
-
-
----
----
-
-
-
----
-
-
-
-
----
----
-
-
-Core intuition is easy
-
-Only with enough points, uniquely determine the curve
-
-
-### Multisig vs TSS vs MPC
+### Wallets ain't created equal
 - cost, privacy concern
   - multisig = on-chain 
 - upgradability 
   - smart contract upgrade  
 
-
-![alt text](/image-2.png)
-
-
-## Transactions
-![alt text](/image-6.png)
-![alt text](/image-4.png)
+### Many ideas around
+  - Improving Ethereum UX
+  - Innovation with Programmable wallet/keys 
+- =Wallet innovations
+- =use case from Signing primitives (attestation too)
 
 
-## EVM / solidity
+::right::
 
-![alt text](/image-7.png)
+<br />
 
-![alt text](/image-5.png)
+<div style="display:flex;align-items:center;flex-direction:column;">
+<div style="">
 
-## Gas
+<img border="rounded" style="width: 400px;" src="/image-36.png" alt="">
+</div>
+<div>
+<img border="rounded" style="width: 200px;" src="/image-37.png" alt="">
+</div>
 
+</div>
 
-![alt text](/image-3.png)
+### often bounties from infra
+- most likley you need one anyway
 
+<!-- 
+hackathons projects 
 
-https://x.com/VitalikButerin/status/1819146290271490403
-
-
-
----
----
-
-
-I want my team to have control..
-
-Navie way
-
-Split password
-
-- not the most secure ways for some obvious reason 
-Unfortunately I hv seen that in prod
-
-
-## Connect vs Sign
-
-
-- Web2: Login button
-
-- Web3: 
-  - Connect: RPC connection. Client shows on-chain wallet  
-  - Login: (Sign-in With Ethereum) SIWE. Signatures sent to server
-
-
-
-
-Wallet Connect provider
-
-
-https://docs.walletconnect.com/advanced/providers/ethereum
-
-
-
-# 
-Custodial vs non custodial 
-Semi custodial 
-Gaming Sequence
-
-
-
-
-
----
-
-
-
-
-
----
----
+social logins
+ -->
