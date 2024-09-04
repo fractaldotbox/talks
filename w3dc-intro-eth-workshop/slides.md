@@ -421,15 +421,37 @@ Quick Tips
 3. Submit video 2 hours earlier
 
 
+Vincent's talk on "Hacking Hackathons" - [Video](https://youtu.be/Wc_Aon3iCas?si=MGB6mqDMTgaCjShs&t=4426) | [Slides](https://fractaldotbox.github.io/talks/hacking-hackathons/)
 
 <!-- <img border="rounded" src="https://pbs.twimg.com/profile_images/1639560056449662977/gyulatO2_400x400.jpg" alt=""> -->
 
 
 ::right::
 
+----
+
+
 
 ## Outro
-- 📷
+
+
+## see you in the hackathon
+
+<a href="">
+  <img style="height: 100px;" src="https://ethglobal.storage/events/singapore2024/logo/default">
+</img></a>
+
+- [Perks applying hackathon via WebDevCommunity](https://docs.google.com/forms/d/1ap40lW7jSZRIKIaFt_Zglt9Ap4DnaxDGlqUbqi_fYuY/edit) 
+
+
+
+---
+---
+
+# Thank you! 📷
+
+
+
 
 ## Community Partners
 
@@ -442,11 +464,6 @@ Quick Tips
 <img border="rounded" style="height: 100px;" src="https://assets-global.website-files.com/62428ba0955ccb660b2e7f1f/6452078557541f634286d1ef_Vectors-Wrapper.svg" alt="">
 
 
-<a href="">
-  <img style="height: 100px;" src="https://ethglobal.storage/events/singapore2024/logo/default">
-</img></a>
-
-- [Perks applying hackathon via WebDevCommunity](https://docs.google.com/forms/d/1ap40lW7jSZRIKIaFt_Zglt9Ap4DnaxDGlqUbqi_fYuY/edit) 
 
 
 ---

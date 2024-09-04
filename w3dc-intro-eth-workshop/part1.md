@@ -388,7 +388,7 @@ layout: two-cols
 layout: center
 ---
 
-"Connecting wallet" - Wait how my wallet works?
+"Connecting wallet" - Wait. how my wallet works?
 
 
 ---
@@ -404,6 +404,8 @@ layout: two-cols
 ![alt text](/image-30.png)
 
 - you signs transactions for it!
+
+<small>  we have both for some historical reasons <br/>- [📖Vitalik Buterin - a history of account abstraction](https://www.youtube.com/watch?v=iLf8qpOmxQc) </small>
 
 ---
 ---
@@ -443,33 +445,217 @@ Case of Metamask Browser extension
 
 ![alt text](/image-31.png)
 
+
+---
+layout: center
+---
+
+"Connect Wallet" - Which wallets are supported?
+
+
+
+
 ---
 ---
 
 ## Wallets. Wallets everywhere 
 
+- (and no perfect way to categorize them)
 ![alt text](/image-10.png)
 
 
+---
+---
+
+## Jargons. Jargons everywhere 
+- SCW
+- TSS
+- SSS
+- MPC
+- Multi-sig
+- HSM
+- DKG
+
+warning: slippy definitions
+
 
 ---
 ---
 
-## TSS & SSS
--  Threshold Signature Scheme
-  - update 
+# SCW - Smart Contract Wallet
+- Supported.. if they align the standard
+- [ERC-1271: Standard Signature Validation Method for Contracts](https://eips.ethereum.org/EIPS/eip-1271)
+  - [📖EIP-1271 Explained](https://cow.fi/learn/eip-1271-explained)
+
+- Opens lots of possibiltiies / Quite different flows (DYOR)
+<img border="rounded" style="width: 500px;" src="/image-9.png" alt="">
+
+---
+layout: two-cols
+---
+
+# Multi-sig
+## 
+<b style="color:yellow;"> 1 Acc | M signature | M Key | M Parties </b>
+
+<br />
+
+#### Fiat
+- Joint account with spouse (Not financial advice)
+ - 1-of-2 / 2-of-2
+
+
+
+::right::
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+#### Crypto
+  - Multiple signatures from multiple keys to control a SCW (Smart Contract Wallet)
+
+
+![alt text](/image-34.png)
+
+
 ---
 ---
-## SCW
-- account abstraction 
-- change the flow
+
+# TSS - __Threshold__ Signature Scheme
+## 
+<b style="color:yellow;"> 1 Acc | 1 signature | M Key | N Parties </b>
+
+
+
+K/N parties to produce 1 signature
+
+Fiat ~ - Company Treasury with motion from Board of directors
+
+- More an umbrella term
+
+
+- [Ref](https://medium.com/keepnetwork/threshold-ecdsa-safer-more-private-multi-signatures-51153f3e9ed2)
+
+
+---
+---
+
+# ok you want 1 key M parties
+
+<br />
+
+Naively... sharing a password 
+<br />
+(🙅‍♂️Don't do that in production!)
+
+
+<code>
+wB9V | EqJ_.yq | wdqPk 
+</code>
+
+
+<br />
+<br />
+<br />
+<br />
+Ok. We have better ways
+
+
+---
+layout: two-cols
+---
+
+# SSS - Shamir's secret sharing
+## 
+<b style="color:yellow;"> 1 Acc | 1 signature | 1 Key | N Parties </b>
+
+![alt text](image-35.png)
+
+- possible to replace key shard
+
+- Easier to understand from maths perspective
+
+::right::
+
+
+
+---
+---
+
+# SSS - "K points to find polynomial"
+
+<SlidevVideo style="height:400px;" v-click autoplay controls>
+  <!-- Anything that can go in an HTML video element. -->
+  <source src="https://cdn.sanity.io/files/r000fwn3/production/b9cb032732f564764e341a4969099c43bf08959a.mp4
+  " type="video/mp4" />
+
+  <p>
+    Your browser does not support videos. You may download it
+  </p>
+</SlidevVideo>
+
+
+
+[Visualized by Evervault](https://evervault.com/blog/shamir-secret-sharing)
+
+---
+---
+
+# MPC
+
+## 
+<b style="color:yellow;"> 1 Acc | 1 signature | 0 Key | N Parties </b>
+
+- "the key" never appears
+- used not only in wallet, e.g. [TLSNotary](https://tlsnotary.org/)
+
+---
+---
+
+
+
+
 
 <!-- ![alt text](/image-9.png) -->
 
 
 
-## SSS
-- Matheamtical intutiion
+  <!-- https://mmasmoudi.medium.com/an-overview-of-multi-party-computation-mpc-threshold-signatures-tss-and-mpc-tss-wallets-4253adacd1b2 -->
+
+
+---
+---
+
+
+
+---
+layout: two-cols
+---
+
+# Good to deep dive for hackathon
+
+Many ideas around
+  - Improve Ethereum UX
+  - Innovation with Programmable wallet/keys 
+- =Wallet innovations
+- =Signing mechansims (attestation too)
+
+::right::
+
+<br />
+<br />
+
+### often bounties from infra
+
+- most likley you need one anyway
+
+<img border="rounded" style="width: 400px;" src="/image-36.png" alt="">
+
+
+<img border="rounded" style="width: 200px;" src="/image-37.png" alt="">
+
 
 ---
 layout: center
@@ -556,14 +742,6 @@ Buying a coffee
 ---
 
 
-
-## Fiat equivalents
-- Joint account with spouse (Not financial advice)
-- CFO with Company governance / Board of directors 
-
-## Crypto equivalent 
-  - Multisig 
-  - MPC
 
 
 ---
