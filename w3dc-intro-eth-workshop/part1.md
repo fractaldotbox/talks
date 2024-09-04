@@ -457,6 +457,8 @@ image: /image-50.png
   - [📖Inevitable Ethereum](https://inevitableeth.com/home/ethereum/network/consensus/eip-1559)
 
 <!-- 
+ask why. miner? PoS now 
+
 Reading the yello paper
 You will find a menu like a cafe
 
@@ -485,6 +487,7 @@ L1 base fee + L2 (sequencer fee)
 layout: center
 ---
 Swapping on Uniswap...
+<br />
 "Connecting wallet" - Wait. how my wallet works?
 
 

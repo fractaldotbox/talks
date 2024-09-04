@@ -82,6 +82,8 @@ ethereum
   .request({ method: 'eth_accounts' })
 ```
 
+---
+---
 
 ## Connect vs Sign
 
@@ -93,8 +95,7 @@ ethereum
   - Login: (Sign-in With Ethereum) SIWE. Signatures sent to server
 
 
----
----
+
 
 
 <!-- - The Provider is said to be “connected” when it can service RPC requests to at least one chain.
@@ -115,8 +116,6 @@ A Client in the context of viem is similar to an Ethers.js Provider.
 layout:center
 ---
 
-
-
 # Under the hood - revisited
 
 
@@ -129,7 +128,7 @@ layout:center
 ---
 
 
-![alt text](/image-2.png)
+<!-- ![alt text](/image-2.png) -->
 <!-- 
 
 ## Transactions
