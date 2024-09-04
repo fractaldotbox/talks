@@ -85,7 +85,7 @@ layout: center
 
 # https://web3dev.community/
 
-
+![alt text](/image-56.png)
 
 
 
@@ -111,8 +111,10 @@ You're likely either
 ---
 ---
 
-# Why workshop
+# Why intro workshop
 
+- I did Web2->3. Need somewhere to start
+  - Wish u hv more questions
 
 - Quickly changing space
    - going to a crypto conference...
@@ -122,7 +124,6 @@ You're likely either
 
 
 - Things are sometimes easier from a Dev / CS angle
-
 
 
 
@@ -267,8 +268,8 @@ layout: two-cols
 - 1945-2000: [🗣️ Break out session - where should I start?](/79)
 - 2000-2010: #2 Typical dApp Frontend techstack
 - 2010-2020: Bonus - Blinklab Demo 
-- 2020-2050: #3 Solidity Intro
-- 2050-2100: Outro - Starting a project / Hackathon Tips (/80)
+- 2020-2050: #3 Solidity Intro (/78)
+- 2050-2100: Outro - Starting a project / Hackathon Tips (/79)
 - 2100: 📷! Networking🍷! Q&A & hackathon project ideas 
 
 ---
@@ -319,9 +320,10 @@ src: part2.md
 - Demo from blinklabs.ai
 
 ---
+layout: center
 ---
 
-## Solidity
+## #3 Solidity
 
 By Aaron
 
@@ -356,7 +358,6 @@ layout: center
 
 ## Outro
 
-<img border="rounded" src="/image-55.png" style="height: 150px;" alt=""> 
 
 
 <br />
@@ -378,6 +379,8 @@ layout: center
 ---
 
 ## See you in the hackathon!
+
+<br />
 
 <a href="">
   <img style="height: 100px;" src="https://ethglobal.storage/events/singapore2024/logo/default">
@@ -448,21 +451,6 @@ Vincent's talk on "Hacking Hackathons" - [Video](https://youtu.be/Wc_Aon3iCas?si
 
 ---
 ---
-
-
-## So much EIP
-- Don't start screening EIP specification
-- It's [literally a PR](https://github.com/ethereum/EIPs)
-- not created equal
-- (historic) context matters
-- very naturally run into them
-
-- Typical ones
-  - Tokens ERC20, ERC721, 1155
-  - EIP-1559
-  - Account abstraction EIP-4337
-  - EIP-4844: Proto-Danksharding
-  - ERC1967 Proxy
 
 
 

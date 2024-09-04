@@ -306,3 +306,31 @@ layout: two-cols
 ---
 
 
+## Questions?
+
+- latest versions quite stable & easy to use
+solid (once you know the flow
+)
+- usually problems elsewhere
+
+
+## More to read
+
+- handling topic / events from smart contract 
+
+
+
+---
+---
+
+
+## Appendix - How to learn so much EIPs?
+- Don't start screening EIP specification
+- It's [literally a PR](https://github.com/ethereum/EIPs) & not created equal
+- (historic) context matters
+- very naturally run into typical ones
+  - Tokens ERC20, ERC721, 1155
+  - EIP-1559
+  - Account abstraction EIP-4337
+  - EIP-4844: Proto-Danksharding
+  - ERC1967 Proxy

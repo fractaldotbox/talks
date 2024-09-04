@@ -69,7 +69,7 @@ layout: center
 # Why Blockchain
 
 - Double spending problem
-  - Imagine you're buying     od from different stores with a offline phone..
+  - Imagine you're buying food from different stores with a offline phone..
   - OK We have entralized banks or VISA/Master...
   - Ok We don't trust them. Lets decentralize
 
@@ -103,6 +103,12 @@ layout: center
 ---
 
 ## a decentralized, secure, programmable one?
+
+
+## with a culture / community?
+
+
+<!-- Try not to ask eth vs sol -->
 
 ---
 layout: center
@@ -154,7 +160,7 @@ layout: two-cols
 layout: two-cols
 ---
 
-# Age of Empires problem
+# Laggy Age of Empires problem
 
 - inaccurate time, failures, dishonest actors etc...
 
@@ -238,6 +244,12 @@ layout: center
 
 Enabling new game theoretic mechanisms
 
+<!-- 
+
+hanging out with core devs 
+spent lots of time talking abt mevs etc
+
+ -->
 
 ---
 ---
@@ -259,6 +271,14 @@ Let's put everything on-chain...
 Huh?
 
 <!-- 
+
+Go to Biz meetings
+
+Technical architect pov
+
+Delete new games
+
+Highlight network effects
 
 # We will be fully on-chain...
 - e.g. "on-chain game"
@@ -287,6 +307,9 @@ layout: two-cols
 - image usually on IPFS
   - immutable
 - censorship resistant
+- Trustless royalties..can we?
+  - Short ans: not on L1
+
 
 ::right::
 
@@ -377,7 +400,7 @@ layout: two-cols
 
 1. Connect
 2. Select on UI
-2. (Approve ERC20 allowance)
+
 3. Sign Transaction!
 4. Done, Easy! 
 ...ignoring how AMM works
@@ -387,6 +410,11 @@ layout: two-cols
 ::right::
 
 ![alt text](/image-29.png)
+
+<!-- Ask: who tried on DEX?
+
+native eth so no Approve ERC20 allowance)
+ -->
 
 ---
 layout: center
@@ -468,7 +496,12 @@ layout: two-cols
 Buying a coffee
 - Passing your coffee loyalty card to your friend.. OK 
 - Passing your whole wallet with all your ATM password.. wait
+ 
+For now imagine smart contract is a microservices
+
  -->
+
+
 
 
 ---
