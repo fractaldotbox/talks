@@ -319,6 +319,7 @@ layout: two-cols
 # Digital Asset
 
 ### NFT
+- Security
 - On-chain token (ERC721/1155 - Smart contract)
 - image usually on IPFS
   - Immutable
@@ -360,8 +361,28 @@ I trust...
 - ~~fair resolution at UMA oracle~~
 
 ---
+layout: two-cols
 ---
+# Provenance / Provable
 
+### Provenance
+- as in telling a wine is legit
+- integrity of data
+- hash vs signatures vs attestations
+
+### Provable computation
+- Gacha as an example
+- proving we didnt handpick the lottery winner
+- ensuring someone is eligible (included in whitelist)
+- Data structures / Zk could further help
+
+::right::
+![alt text](/image-58.png)
+![alt text](/image-57.png)
+
+---
+layout: two-cols
+---
 
 # Back to the Why dApp Q
 - Liquidity & Community
