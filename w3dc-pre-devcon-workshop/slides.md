@@ -67,6 +67,25 @@ To get most out of it, you would have to spend a few hours on the reading lists,
 
 
 ---
+---
+
+# Who is this for
+
+<br>
+
+Developers who want to get started with Web3 dApp development on Ethereuem ecosystems. 
+
+Who plans to join upcoming Devcon or to get one's hands dirty at [ETHGlobal Bangkok](https://ethglobal.com/events/bangkok) hackathon   
+
+You're likely either
+
+- 🧑‍💻 **Experienced Web2 Developers** - Developer by trade but you have never build on Web3 in production
+- 🙆 **Crypto users** - You're native in web3, somewhat technical and trying to learn how things are built 
+- 🚀 **Technical Product People** - You don't code much at work but went through basic programming bootcamps, keen to understand more on web3 devs 
+
+
+
+---
 layout: two-cols
 ---
 
@@ -117,7 +136,7 @@ layout: two-cols
 - 1945-2000: [🗣️ Break out session - learning curve, hackathon experience sharing]
 - 2000-2015: #2 Intro to applied cryptography, zk use cases
 - 2015-2040: #3 Intro to starknet by @0xhatsume
-- 2050-2100: [Outro - Devcon agenda highlights]
+- 2050-2100: [Outro - Devcon]
 - 2100: 📷! Networking🍷! Q&A
 
 
