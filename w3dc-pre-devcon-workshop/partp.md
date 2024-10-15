@@ -1,7 +1,12 @@
 ---
+layout: center
 ---
 
 # Common dApps dev patterns and primitives by @debuggingfuture
+
+
+---
+---
 
 ### Disclaimers
 
@@ -38,7 +43,9 @@ layout: two-cols
 
 ::right::
 
-<img src="/image-13.png" style="height:300px" />
+<img src="/image-13.png" style="height:350px" />
+
+<!-- Don't take my words, 2 takeaways from Vitalik -->
 
 ---
 layout: two-cols
@@ -52,6 +59,7 @@ layout: two-cols
 - WTF is Modernism
 
 ::right::
+
 <v-click>
 What builders actually learn
 
@@ -94,37 +102,63 @@ layout: center
 
 
 ---
-layout:center
+layout: center
 ---
 
 # on Maths
 
 
-<img src="/image-7.png" style="height:400px !important; background:cover;"/>
-![alt text](image-7.png)
+<img src="/image-33.png" style="height:400px !important; "/>
 
 
-<!-- # meme
- Not good at maths
- good at using chat gpt for maths -->
 
 
 ---
+layout: two-cols
 ---
 # Premier #1: Maths that sounds complicated
 
-## Don't know WTF is `Residue class`
+## 🤔Don't know WTF is `Residue class`
+<hr />
 
-## But you know `modular arithmetic` already
+## 👌But you know `modular arithmetic` already
 
 - `5 % 3 === 2` 
 
+::right::
 
-![alt text](image-2.png)
-
+![alt text](/image-2.png)
 
 
 <!-- Spent 15 years of our lives learn about it and finally learn to fear and avoid it -->
+
+
+---
+layout: two-cols
+---
+
+# Field. Field everywhere
+
+<img src="/image-27.png" style="height:150px"/>
+<br />
+<img src="/image-5.png" style="height:150px"/>
+
+![alt text](image-7.png)
+
+
+---
+---
+
+## 🤔Don't know WTF is group theory / rings
+
+## 👌But you know what is Set
+
+<div class="center">
+    <img src="/image-12.png" style="height: 400px" />
+
+</div>
+
+
 
 
 
@@ -132,54 +166,45 @@ layout:center
 layout: two-cols
 ---
 
+## 👌You know traits in programming
 
+- Traits/Mixins `implements Vehicle`
+  - `move(x:int, y: int)`
 
-## Don't know WTF is group theory / rings
-
-### But you know what is Set
-
-![alt text](image-12.png)
-
----
----
-
-## You know set & Traits in programming
-
-- Traits/Mixins `implements RealNumber`
-
-- `divide(x: int)-> int`
-
-
+- `implements Field`
+  - `divide(x: int)-> int`
 
 ::right::
 
 <img src="/image-24.png" style="height:400px"/>
 
 
-
 ---
----
-
-
-### Field
-
-<img src="/image-27.png" style="height:300px"/>
-<img src="/image-5.png" style="height:300px"/>
-
----
+layout: two-cols
 ---
 
 
-### Counter Example
+## Counter Example
 - Integers ℤ is NOT a field
-### Examples
+
+<br />
+
+## Examples
 - Real Numbers ℝ
 - Complex Number ℂ
-  - specifically, it's field extension by adjoining i. ℝ(i)
-  - s.t. we have a solution for i^2 =1 
-- Consider field of modulus prime number ...Prime field
-- which has finite elements.... Finite Field
+  - specifically: as ℝ(i) field extension of ℝ by adjoining _i_.
+  - s.t. we have a solution for _i_^2 =1 
 
+- field of modulus prime p...`Prime field`
+- which has finite elements....`Finite Field`
+
+::right::
+
+# Field Axioms
+
+## 
+
+![alt text](image-1.png)
 ---
 class: bg-white whiteboard
 ---
@@ -190,5 +215,32 @@ class: bg-white whiteboard
 
 
 ## One Way, Trap door function   
+<div class="center">
 
-<img src="/image-19.png" style="height: 300px" />
+<img src="/image-19.png" style="height: 400px" />
+</div>
+
+<v-click>
+- prime factorization 1093*1039=1,135,627
+</v-click>
+---
+---
+
+
+# Themes
+
+- We want something hard (to attack)
+  - Quantum computing? 
+
+- easy to verify
+
+- Size matters!
+   - compact (Field) numbers to do fancy calculations on (via Field extension)
+
+
+- Vitalik actually wrote very great premiers
+  - [Finite field](https://vitalik.eth.limo/general/2024/04/29/binius.html#recap1)
+
+<!-- I learn more from them than from my university -->
+
+<!-- - works well with zk circuits? "SNARK-friendly?" -->

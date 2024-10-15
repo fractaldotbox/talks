@@ -14,6 +14,9 @@ title: W3DevC - Build on ETH Intro Workshop II
 info: |
  ## Workshop by https://web3dev.community/
 mdc: true
+
+themeConfig:
+  primary: '#87dfeb'
 ---
 
 # W3DC Build on ETH workshop II
@@ -36,18 +39,6 @@ Venue: SG Builders @Chinatown
 22a Sago St, Singapore 059019
 
 https://maps.app.goo.gl/J2fSvXowNkVhzVHS6
-
-
----
----
-
-### Goal
-- Recap what we learnt at last workshop & hackathon
-- demo building with primitives - ENS, EAS, Graph etc 
-- intro to common applied cryptography
-- intro to starknet
-- debrief jargons on devcon agenda
-- learn about ideas on ETH Roadmap
 
 ---
 ---
@@ -117,8 +108,7 @@ layout: two-cols
 ---
 ---
 
-
-### [@0xhatsume](https://x.com/0xhatsume)
+# [@0xhatsume](https://x.com/0xhatsume)
 
 - Organizer of [Starknet Devs Meetup in SG](https://x.com/ethereum_sg/status/1800837945462845920)
 - Founder@ML village
@@ -139,34 +129,43 @@ layout: two-cols
 - 2050-2100: [Outro - Devcon]
 - 2100: 📷! Networking🍷! Q&A
 
-
-
-
----
-src: part0.md
----
-
-
----
-# src: part1.md
----
-
-
----
-# src: part2.md
----
-
-
-
-
 ---
 ---
 
+# Thanks for support
 
-Reference:
-- Transaction
-- [Transaction](https://github.com/ethereumbook/ethereumbook/blob/develop/06transactions.asciidoc)
 
+## Sponsors
+ -  [Ethereum Foundation RTD Grant](https://devcon.org/en/road-to-devcon/)
+
+<br/>
+
+<img border="rounded" style="height: 100px;" src="/image-23.png" alt="">
+
+<br />
+
+## Co-host
+![alt text](image-6.png)
+
+<a href="https://talentweb3.co/">
+
+<img border="rounded" style="height: 30px;" src="https://framerusercontent.com/images/i5WDhu5qjzWfi39Bwi6iEHJcuk.svg" alt="">
+</a>
+
+
+---
+src: partp.md
+---
+
+
+---
+src: part1.md
+---
+
+
+---
+src: part2.md
+---
 
 
 
@@ -175,16 +174,26 @@ Reference:
 ---
 
 # Intro to Starknet by 0xhastume
-- zk-Stark
-- Demo with Scaffold-Stark
 
-
+Who am I and why I am in Starknet?
+What is Starknet as an organization?
+How a typical L2?
+Why Starknet (technically)?
+zkSTARK
+CairoVM
+AA
+Starknet Intricacies (if time permits)
+SN txn
+Contract Deploys
+Blocks and Packing
+Nodes
+Recursive Proving
 
 
 ---
 ---
 
-Devcon
+[Devcon](https://docs.google.com/presentation/d/1VMEDEjsl2v_J-0lR9Tfoj9baLrUHa9VJc3v1PUWzQNU/edit?usp=sharing)
 
 ---
 ---

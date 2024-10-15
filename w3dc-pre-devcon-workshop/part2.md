@@ -1,4 +1,27 @@
 
+
+
+
+# Account Abstraction
+
+- [Polymarket uses a Proxy account via Safe (Smart Contract)](https://docs.polymarket.com/#proxy-wallets)
+
+---
+---
+
+
+![alt text](image-36.png)
+
+---
+---
+
+## Watch Devcon talks
+
+[ELI5: Account Abstraction by Liraz | Devcon Bogotá](https://www.youtube.com/watch?v=QuYZWJj65AY)
+
+[A history of account abstraction by Vitalik](https://www.youtube.com/watch?v=iLf8qpOmxQc)
+
+
 ---
 ---
 

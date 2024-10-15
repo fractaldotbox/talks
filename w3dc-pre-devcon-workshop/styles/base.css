@@ -5,3 +5,11 @@
 .whiteboard {
     color:white;
 } */
+
+.center {
+    display: flex; justify-content: center;
+}
+
+.slidev-layout h1 {
+    margin-bottom: 2rem !important;
+}
