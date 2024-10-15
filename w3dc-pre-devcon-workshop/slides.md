@@ -95,7 +95,7 @@ layout: two-cols
 
 
 - Organizer of Web3Dev.Community
-- Founder@Fractal Labs = Dev Studio
+- Founder@Fractal Box = Dev Studio
   <!-- - Dev studio focusing AI-powered on-chain agents and CMS workflows -->
 - 12yr+ Founder/Tech Lead roles
   <!-- - Animoca, Pixelmon (Web3 VC/Game Studio)
@@ -104,10 +104,10 @@ layout: two-cols
 - 3x ETHGlobal Finalist
 
 ::right::
-
 <img border="rounded" class="avatar-rounded" src="/image-43.png" style="height:150px" alt=""> 
 <br />
-<img border="rounded" src="/image-44.png" style="height:100px" alt="">
+<img border="rounded" src="/image-8.png" style="height:50px" alt="">
+<br />
 <div style="display:flex;">
 <img border="rounded" src="/image-45.png" style="height:50px" alt="">
 <img border="rounded" src="/image-46.png" style="height:50px" alt="">
@@ -143,47 +143,29 @@ layout: two-cols
 
 
 ---
+src: part0.md
 ---
 
-## Content (WIP)
+
+---
+# src: part1.md
+---
 
 
 ---
+# src: part2.md
 ---
 
-# Session 1
 
-## Common dApps dev patterns and primitives by @debuggingfuture
-
-- Reading contract events via wagmi
-- Reading data via the Graph
-- ENS
-  - ensjs
-- EAS
-  - sample flow
-- Overview of advanced concepts/tools
-  - account abstraction
-  - session key
-  - TLSNotary
-- (TBC)
 
 
 ---
 ---
-# Session 2
-## Intro to ~~moonmath~~ ideas of applied cryptography by @debuggingfuture/0xhatsume
-- ECDSA
-- Modulus
-- Finite field
-- ECC
-- Three-color problems
-- Zk Use cases
-  - ZuPass
-  - [in blockchains](https://www.notion.so/0xparc/Pre-program-Topic-Sampler-46456f891dc541a7a780c79f8ced463c?pvs=4#651f28ac59c64f58b2f348187eaf689a)
-- Readings
-  - Reference from [0xParc](https://docs.google.com/presentation/d/17QuoDRTCNE8-DnFysZCyxpQvUA_1dEo7Hs1rgXhHHKA/edit#slide=id.g102e66aa652_0_257
-)
-  - selected vitalik's blog post
+
+
+Reference:
+- Transaction
+- [Transaction](https://github.com/ethereumbook/ethereumbook/blob/develop/06transactions.asciidoc)
 
 
 
@@ -192,34 +174,21 @@ layout: two-cols
 ---
 ---
 
-# Session 3 by
-## Intro to Starknet by 0xhastume
+# Intro to Starknet by 0xhastume
 - zk-Stark
 - Demo with Scaffold-Stark
 
 
----
----
-
-## Complexity Zoos
-
-![alt text](/image.png)
-
 
 
 ---
 ---
 
-##  3 color maps
-https://docs.google.com/presentation/d/17QuoDRTCNE8-DnFysZCyxpQvUA_1dEo7Hs1rgXhHHKA/edit#slide=id.g102e66aa652_0_257
-
-
-
+Devcon
 
 ---
 ---
 
-# meme
-## Not good at maths
 
-## good at using chat gpt for maths
+Thank you!
+
