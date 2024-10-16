@@ -2,20 +2,50 @@
 
 
 
-# Account Abstraction
+# Account Abstraction. Recap
 
+
+![alt text](/image-36.png)
+
+
+---
+layout: two-cols
+---
+
+
+# Account abstraction != eip 4237
+- Idea: since ETH inception
+- Vitalik work on it since 2016 [History of AA](https://www.youtube.com/watch?v=iLf8qpOmxQc)
+  - Ideal = launch Ethereum with All smart contract account, no EOA
+- "Kind of AA" - Smart Contract Wallets Safe, Argent...
 - [Polymarket uses a Proxy account via Safe (Smart Contract)](https://docs.polymarket.com/#proxy-wallets)
 
+<!-- ![alt text](/image-25.png) -->
+
+::right::
+
+Recap: Abstraction
+
+![alt text](/image-24.png)
+
 ---
 ---
 
+# Account Abstraction
 
-![alt text](image-36.png)
+- Logically
+  - Use Smart Contract to create powerful Account
+  - Make EOA more like a Smart Account
 
----
----
 
-## Watch Devcon talks
+- Recent Work
+  - EIP4337 = decentralized AA infra, UserOp, paymaster
+      - gasless txn, session keys etc..
+  - (Proposing) [EIP-7702 as alternative to EIP-3074](https://www.theblock.co/post/293074/vitalik-buterin-proposes-eip-7702-aiming-to-refine-account-abstraction-on-ethereum?modal=newsletter)
+
+<br />
+
+## Readings
 
 [ELI5: Account Abstraction by Liraz | Devcon Bogotá](https://www.youtube.com/watch?v=QuYZWJj65AY)
 
@@ -25,137 +55,138 @@
 ---
 ---
 
+# Global state is good, Wt about privacy?
+
+![alt text](/image-41.png)
+
+---
+---
+
 # FHE
 
+## Say you're building a onchain IG-ish image filter service..
+
+![alt text](/image-39.png)
+
+
+---
+---
+# FHE
 
 ## Textbook definition
 Fully-homomorphic encryption (FHE) allows us to compute an arbitrary program over someone else’s private data, without learning anything about the data or the output of the computation.
+
+<br />
 
 ## Textbook examples
 - Hospital encrypt private patient data
 - Companies offer service to analyze encrypted data for aggregated statistics
 
+<br />
 
+
+## Readings
 [A 6 minute introduction to Fully Homomorphic Encryption (FHE)](https://www.zama.ai/introduction-to-homomorphic-encryption)
 
 
 ---
 ---
 
-# More personal example
-
-- You send to accountant
-
----
----
-
 # Homomorphism
 
-- morph = (form, shape)
-- isomorphism = ~identical
-- homo = ~homogenous, same, similar 
+- the Name
+  - morph = (form, shape)
+  - isomorphism = ~identical
+  - homo = ~homogenous, same, similar 
+  - isomorphism != homomorphism
 
-
-- isomorphism != homomorphism
-
-"Structure preserving map"
-
-"At more abstract level, form stay unchanged after applying some functions"
-
-
----
-
-# Fully Homorphic Encryption
-
-![alt text](image-26.png)
-
+- which means..
+  - "Structure preserving map"
+  - "At more abstract level, form stay unchanged after applying some functions"
+  - "Partial Fully" - All / some types of compute (addition, multiplication) 
 
 
 ---
+class: bg-white text-black
 ---
 
-![alt text](image-18.png)
+[GSheet](https://docs.google.com/spreadsheets/d/11iz80jFWlHNgt4MSq_uu7guPbj11hPbLy9prOeEik8w/edit?gid=0#gid=0)
+
 ---
----
 
+<!-- # Fully Homorphic Encryption -->
 
-## Demo
+![alt text](/image-26.png)
 
-<!-- - Not generall true, say f(x) = -x -->
-
-<!-- - Morning/Evening -->
 
 
 
 ---
+layout: two-cols
 ---
 
-- Challenges
-  - EOD have to decrypt somewhere  https://medium.com/optalysys/the-distinction-between-fhe-and-tees-the-downfall-attack-a89eb5793d52
+# You can build today
 
-- Why now?
-  - 2009 Fully Homomorphic Encryption Using Ideal Lattices
-  - hardware
-  - https://collective.flashbots.net/t/drawbacks-in-fhe-blockchain-and-how-tee-can-help-it/3642
+- Decentralized FHE 
+  - [Incon](https://www.inco.org/)
+  - [Nillion](https://nillion.com/)
+  - [Fhenix](https://docs.fhenix.zone/docs/devdocs/Setting%20Up%20Your%20Environment/intro)
+  - fhEVM by Zama 
+
+- Libraries
+  - [tFHE-rs by Zama](https://github.com/zama-ai/tfhe-rs)
+
+::right::
+
+![](/image-37.png)
 
 ---
 ---
 
-  https://evervault.com/blog/deep-dive-on-fully-homomorphic-encryption-what-is-it-and-what-makes-it-different
+## Why now
+- Privacy preserving apps in AI era
+- Blockchain by default = public
+- Faster computing
+ 
+
+- Composable (e.g. prediction market)
+
+[Chips to Compute With Encrypted Data Are Coming](https://spectrum.ieee.org/homomorphic-encryption)
+
+<!-- similar to AI -->
+
+---
+---
+
+
+
 
 
 ---
 ---
 
-# Conclusion
+<!-- # Conclusion
 
 ### Know enough
 
 - drand projects: CICD
-- "useable"
+- "useable" -->
 
 
+## Outro
 
-
----
----
-
-
-# Account abstraction != eip 4237
-
-- Vitalik [since 2016](https://www.youtube.com/watch?v=iLf8qpOmxQc)
-  - Ideal = launch Ethereum with All smart contract account, no EOA
-- "Kind of AA" - Smart Contract Wallets Safe, Argent...
-- Recall: Abstraction
-
-<!-- ![alt text](image-25.png) -->
-
-![alt text](/image-24.png)
-
----
----
-
-- Logically
-  - Use Smart Contract to create powerful Account
-  - Make EOA more like Smart Account
-
-
-- Recent Work
-  - EIP4337 = decentralized AA infra, UserOp, paymaster
-      - gasless txn, session keys etc..
-  - (Proposing) [EIP-7702 as alternative to EIP-3074](https://www.theblock.co/post/293074/vitalik-buterin-proposes-eip-7702-aiming-to-refine-account-abstraction-on-ethereum?modal=newsletter)
-
----
----
-
-
-## Technology Tree
+- Technology Tree
 
 ![alt text](/image.png)
+
+- [Programmable Cryptography](https://0xparc.org/blog/programmable-cryptography-1)
+
 
 
 <!-- 
 # use ZK-SNARKs for privacy
+"HE is like ZK for arbitrary functions"
+- Here’s an output y and an arbitrary function f. I know a secret value x such that f(x) = y”
 
 # - Vitalik: `Blockchains can make state information global, ZK-SNARKs can make state information private, but we don't really have any good way to make state information global and private at the same time.` -->
 
@@ -166,15 +197,5 @@ https://docs.google.com/presentation/d/17QuoDRTCNE8-DnFysZCyxpQvUA_1dEo7Hs1rgXhH
  -->
 
 
-"HE is like ZK for arbitrary functions"
-- Here’s an output y and an arbitrary function f. I know a secret value x such that f(x) = y”
 
 
----
----
-# attestations
-# - Intuitive examples
-#   - Voting
-
-# - Why matters 
-#   - video showing someone says something...

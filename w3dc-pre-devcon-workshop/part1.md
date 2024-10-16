@@ -168,7 +168,7 @@ class: bg-white
 ## Applying modulus to a polynomial
 
 ## 
-![alt text](image-20.png)
+![alt text](/image-20.png)
 
 
 <!-- <img src="/image-10.png" style="height: 400px" /> -->
@@ -183,12 +183,12 @@ layout: two-cols
 
 ### ECC
 
-![alt text](image-21.png)
+![alt text](/image-21.png)
 
 ::right::
 ### Actually, on Field of modulus p
 
-![alt text](image-22.png)
+![alt text](/image-22.png)
 
 
 ---
@@ -288,7 +288,7 @@ class: bg-white center
 
 ## 
 
-![alt text](image-14.png)
+![alt text](/image-14.png)
 
 
 
@@ -348,7 +348,7 @@ Ref: [Signature phishing](https://support.metamask.io/privacy-and-security/stayi
 - [EIP-191](https://eips.ethereum.org/EIPS/eip-191)
 
 
-![alt text](image-28.png)
+![alt text](/image-28.png)
 
 
 
@@ -428,9 +428,16 @@ Talked about happy path
 
  <!-- EAS is good example because it is simple but powerful  -->
 
+# - Intuitive examples
+#   - Voting
+
+# - Why matters 
+#   - video showing someone says something...
+
+<br />
 ## more readings
 
 - Read Ch.6 Transaction of ["Mastering Ethereum"](https://github.com/ethereumbook/ethereumbook/blob/develop/06transactions.asciidoc#ecdsa_math)
 
-- [Practical Cryptography for Developers]https://cryptobook.nakov.com/
+- [Practical Cryptography for Developers](https://cryptobook.nakov.com/)
 

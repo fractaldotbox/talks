@@ -1,9 +1,7 @@
 ---
-# try also 'default' to start simple
-theme: seriph
+theme: hep
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
-background: https://cover.sli.dev
 # apply any unocss classes to the current slide
 class: 'text-center'
 # https://sli.dev/custom/highlighters.html
@@ -17,9 +15,20 @@ mdc: true
 
 themeConfig:
   primary: '#87dfeb'
+
+image: /workshop2.png
+  
 ---
 
-# W3DC Build on ETH workshop II
+---
+layout: full
+---
+
+
+![alt text](/workshop2.png)
+
+<!-- # W3DC Build on ETH workshop II -->
+
 
 ---
 transition: fade-out
@@ -30,15 +39,6 @@ transition: fade-out
 
 <img border="rounded" style="height: 450px;" src="/image-15.png" alt="">
 
----
-
-## When
-Date: Oct 16, 2024 (Wed)
-
-Venue: SG Builders @Chinatown
-22a Sago St, Singapore 059019
-
-https://maps.app.goo.gl/J2fSvXowNkVhzVHS6
 
 ---
 ---
@@ -145,7 +145,7 @@ layout: two-cols
 <br />
 
 ## Co-host
-![alt text](image-6.png)
+![alt text](/image-6.png)
 
 <a href="https://talentweb3.co/">
 

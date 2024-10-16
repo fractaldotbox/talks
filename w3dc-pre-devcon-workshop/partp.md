@@ -10,7 +10,7 @@ layout: center
 
 ### Disclaimers
 
-- We position as tutors
+- We position as tutors in a flipped classroom
   - so you can learn from the gigabrains!
 - I'm
   - Application Developer
@@ -40,6 +40,9 @@ layout: two-cols
 - WTF is AA & ERC4337
 - WTF is EIP7702
 - WTF is pre-confirmations
+
+- X's 5 phrases to Endgame
+- The Universal Intersubjective Work Token
 
 ::right::
 
@@ -100,6 +103,12 @@ layout: center
 
 <img src="/image-3.png" style="height:400px" />
 
+- Great intro Textbooks
+ - Real World cryptography by David Wong
+ - Understanding Cryptography by Christof Paar, Jan Pelzl
+    - [Lectures on Youtube](https://youtu.be/2aHkqB2-46k?si=eQ30nAhNzSJi2cJ7)
+
+<!-- Applied Cryptography -->
 
 ---
 layout: center
@@ -143,7 +152,7 @@ layout: two-cols
 <br />
 <img src="/image-5.png" style="height:150px"/>
 
-![alt text](image-7.png)
+<img src="/image-7.png" style="height:150px"/>
 
 
 ---
@@ -185,14 +194,13 @@ layout: two-cols
 
 
 ## Counter Example
-- Integers ℤ is NOT a field
+- Integers ℤ (1,2,3...) is NOT a field
 
 <br />
 
 ## Examples
-- Real Numbers ℝ
-- Complex Number ℂ
-  - specifically: as ℝ(i) field extension of ℝ by adjoining _i_.
+- ℚ Rational, ℝ Real, ℂ Complex Numbers
+  - specifically: ℂ as ℝ(i) field extension of ℝ by adjoining _i_.
   - s.t. we have a solution for _i_^2 =1 
 
 - field of modulus prime p...`Prime field`
@@ -200,11 +208,22 @@ layout: two-cols
 
 ::right::
 
-# Field Axioms
 
 ## 
 
-![alt text](image-1.png)
+<img src="/image-40.png" style="height:250px"/>
+
+
+## Field Axioms
+
+
+
+<img src="/image-1.png" style="height:250px"/>
+
+
+
+ <footer class="absolute bottom-0 left-0 right-0 p-2">Credit: [Number Sets image by Keith Enevoldsen](https://thinkzone.wlonk.com/Numbers/NumberSets.htm)</footer>
+
 ---
 class: bg-white whiteboard
 ---
@@ -220,8 +239,14 @@ class: bg-white whiteboard
 <img src="/image-19.png" style="height: 400px" />
 </div>
 
+<br />
+
 <v-click>
-- prime factorization 1093*1039=1,135,627
+
+- prime factorization
+  - 1135627= p1 * p2? 
+  - 1093*1039 = ?
+
 </v-click>
 ---
 ---
@@ -232,7 +257,7 @@ class: bg-white whiteboard
 - We want something hard (to attack)
   - Quantum computing? 
 
-- easy to verify
+- Easy to verify
 
 - Size matters!
    - compact (Field) numbers to do fancy calculations on (via Field extension)
