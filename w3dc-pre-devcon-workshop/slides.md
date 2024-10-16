@@ -16,12 +16,7 @@ mdc: true
 themeConfig:
   primary: '#87dfeb'
 
-image: /workshop2.png
-  
----
-
----
-layout: full
+layout: center
 ---
 
 
