@@ -190,11 +190,8 @@ Recursive Proving
 ---
 ---
 
-[Devcon](https://docs.google.com/presentation/d/1VMEDEjsl2v_J-0lR9Tfoj9baLrUHa9VJc3v1PUWzQNU/edit?usp=sharing)
-
----
----
-
 
 Thank you!
+
+See you at [Devcon](https://docs.google.com/presentation/d/1VMEDEjsl2v_J-0lR9Tfoj9baLrUHa9VJc3v1PUWzQNU/edit?usp=sharing)
 
