@@ -218,8 +218,9 @@ layout: two-cols
 <v-click>
 
 - Deep state didn't add a backdoor?
-  - [secp256k1](https://www.secg.org/sec2-v2.pdf) proposed by Certicom not NSA/NIST
-  - [2013 Dual EC, Snowden confiremd they did](https://blog.cryptographyengineering.com/2015/01/14/hopefully-last-post-ill-ever-write-on/)
+  - Different schemes/parameters under ECDSA
+  - Ethereum & Bitcoin uses [secp256k1](https://www.secg.org/sec2-v2.pdf) proposed by Certicom not NSA/NIST
+  - [Dual EC DRBG<- 2013 Snowden confiremd they did](https://blog.cryptographyengineering.com/2015/01/14/hopefully-last-post-ill-ever-write-on/)
 
 <br />
 <blockquote>
@@ -251,7 +252,7 @@ layout: two-cols
 - ~ Real-life signature
 - provides
   - authenticity
-    - e.g. When your investor ask to airdrop to wallet 0xabcde...
+    - e.g. prove wallet ownership, when your investor ask to airdrop 0xabcde...
   - non-reputidation
 
 - beyond signatures
