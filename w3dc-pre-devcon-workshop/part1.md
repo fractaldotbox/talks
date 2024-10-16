@@ -51,7 +51,7 @@ layout: two-cols
 
 ::right::
 
-- How it happens under the hood
+- How it works under the hood?
 
 - Different but sharing similar building blocks
 
@@ -59,7 +59,9 @@ layout: two-cols
 ---
 ---
 
-## Hash (vs Encoding) vs Encryption 
+## Premier #2: Hash (vs Encoding) vs Encryption 
+
+<br />
 
 <div class="center bg-white">
 
@@ -73,7 +75,8 @@ layout: two-cols
 ---
 ---
 # Hash
-- Wiki: `function that map data of arbitrary size to fixed-size values`
+- Wiki: `Function that map data of arbitrary size to fixed-size values`
+- One-way
 - Examples
   - SHA256
   - keccak256 [Viem Example](https://viem.sh/docs/utilities/keccak256.html)
@@ -124,7 +127,7 @@ fromRlp('0xc67f7f838081e8', 'hex')
 ---
 
 ## Encryption
-
+- Trapdoor
 - e.g. RSA
 
 <img src="/image-11.png" style="height:350px" />
@@ -304,6 +307,8 @@ class: bg-white center
 
 ```
 
+- Ethereum: rely on valid ECDSA signature, computation-agnoistic (Not the case in Bitcoin)
+
 ---
 layout: two-cols
 ---
@@ -337,7 +342,10 @@ layout: two-cols
   <img src="/image-30.png" style="height: 350px;" />
 </div>
 
+
+<footer class="absolute bottom-0">
 Ref: [Signature phishing](https://support.metamask.io/privacy-and-security/staying-safe-in-web3/signature-phishing/)
+</footer>
 
 ---
 ---
@@ -422,20 +430,20 @@ Talked about happy path
 
 # Apendix
 
-## EAS (Ethereum Attestation Service)
+### EAS (Ethereum Attestation Service)
 
 -  [Make a statement](https://sepolia.easscan.org/schema/view/0x3969bb076acfb992af54d51274c5c868641ca5344e1aacd0b1f5e4f80ac0822f)
 
  <!-- EAS is good example because it is simple but powerful  -->
 
-# - Intuitive examples
+<!-- # - Intuitive examples
 #   - Voting
 
 # - Why matters 
-#   - video showing someone says something...
-
+#   - video showing someone says something... -->
 <br />
-## more readings
+
+## More readings
 
 - Read Ch.6 Transaction of ["Mastering Ethereum"](https://github.com/ethereumbook/ethereumbook/blob/develop/06transactions.asciidoc#ecdsa_math)
 

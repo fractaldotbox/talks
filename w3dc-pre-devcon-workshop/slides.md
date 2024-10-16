@@ -114,20 +114,22 @@ layout: two-cols
 - Founder@ML village
 - awarded Seed Grant from Starknet
 
+# [Dipesh](https://x.com/dipesh_sukhani) & Emmanuel
 
-
+- Co-Founders at BuildBear Labs  @_BuildBear
+  - Web3 DevTool streamlining smart contract testing
 ---
 ---
 
 # Agenda
 - 1845:🍕 Open floor & Networking
 - 1900-1910: Intro & Housekeeping
-- 1910-1945: #1 Common dApps dev patterns and primitives by @debuggingfuture
-- 1945-2000: [🗣️ Break out session - learning curve, hackathon experience sharing]
-- 2000-2015: #2 Intro to applied cryptography, zk use cases
-- 2015-2040: #3 Intro to starknet by @0xhatsume
-- 2050-2100: [Outro - Devcon]
-- 2100: 📷! Networking🍷! Q&A
+- 1910-1945: #1 Common dApps patterns & applied cryptography by @debuggingfuture @debuggingfuture
+- 1945-2010: [🗣️ Break out session - learning curve, hackathon experience sharing]
+- 2010-2025: #2 Best practices and key techstack on Web3 dev by @dipesh, @emmanuel
+- 2025-2100: #3 Intro to starknet by @0xhatsume
+- 2100-2110: [Outro - Devcon]
+- 2110: 📷! Networking🍷! Q&A
 
 ---
 ---

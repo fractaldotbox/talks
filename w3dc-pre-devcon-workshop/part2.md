@@ -2,7 +2,7 @@
 
 
 
-# Account Abstraction. Recap
+# Outro#1 Account Abstraction. Recap
 
 
 ![alt text](/image-36.png)
@@ -13,7 +13,7 @@ layout: two-cols
 ---
 
 
-# Account abstraction != eip 4237
+# Account abstraction != ERC-4337
 - Idea: since ETH inception
 - Vitalik work on it since 2016 [History of AA](https://www.youtube.com/watch?v=iLf8qpOmxQc)
   - Ideal = launch Ethereum with All smart contract account, no EOA
@@ -62,12 +62,15 @@ Recap: Abstraction
 ---
 ---
 
-# FHE
+# Outro #2 FHE
 
-## Say you're building a onchain IG-ish image filter service..
+### Say you're building a onchain IG-ish image filter service..
 
-![alt text](/image-39.png)
+<img src="/image-39.png" class="h-3/4" />
 
+<footer className="absolute bottom-0">
+Credit: [Inco: The modular confidential computing network](https://www.youtube.com/watch?v=UNTYdh3AVBE)
+</footer>
 
 ---
 ---
@@ -103,7 +106,7 @@ Fully-homomorphic encryption (FHE) allows us to compute an arbitrary program ove
 - which means..
   - "Structure preserving map"
   - "At more abstract level, form stay unchanged after applying some functions"
-  - "Partial Fully" - All / some types of compute (addition, multiplication) 
+  - "Fully" - All types of compute (addition, multiplication), unlimtied # of times 
 
 
 ---
@@ -127,14 +130,23 @@ layout: two-cols
 
 # You can build today
 
+
 - Decentralized FHE 
-  - [Incon](https://www.inco.org/)
+  - [fhEVM by Zama]
+  - [Inco](https://www.inco.org/)
+    - offer Confidentiality-as-a-Service w/ fhEVM
   - [Nillion](https://nillion.com/)
+  
   - [Fhenix](https://docs.fhenix.zone/docs/devdocs/Setting%20Up%20Your%20Environment/intro)
-  - fhEVM by Zama 
+    - L2 rollup on fhEVM 
+
 
 - Libraries
   - [tFHE-rs by Zama](https://github.com/zama-ai/tfhe-rs)
+    - Control flow -> Circuits
+
+- Trends & Latest Startups
+ - [The State of FHE: VC Panel Discussion by Zama](https://youtu.be/eU2AUp1vKfc?si=YuUsTm9Zz759V47n)
 
 ::right::
 
@@ -155,12 +167,6 @@ layout: two-cols
 
 <!-- similar to AI -->
 
----
----
-
-
-
-
 
 ---
 ---
@@ -173,13 +179,14 @@ layout: two-cols
 - "useable" -->
 
 
-## Outro
+## Outro: the Programmable Cryptography Technology Tree
 
-- Technology Tree
+<br />
 
-![alt text](/image.png)
+<img src="/image.png" class="h-3/4" />
 
-- [Programmable Cryptography](https://0xparc.org/blog/programmable-cryptography-1)
+
+- [Programmable Cryptography by 0xPARC](https://0xparc.org/blog/programmable-cryptography-1)
 
 
 

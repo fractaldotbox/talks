@@ -2,7 +2,8 @@
 layout: center
 ---
 
-# Common dApps dev patterns and primitives by @debuggingfuture
+# Common dApps dev patterns & applied cryptography
+###  by @debuggingfuture
 
 
 ---
@@ -88,10 +89,10 @@ layout: two-cols
 
 ## What you need to know 
 
-- Ecliptic Curve
+- Elliptic Curve
 - Modulus 
 - Finite Field
-- Signing signatures
+- Signatures
 - Security guarantee
 <!-- metaphor: Talking SSG, SSR, ISG to devops. basic ideas not hard. Mastering them hard.  -->
 
@@ -123,21 +124,23 @@ layout: center
 
 
 ---
-layout: two-cols
 ---
 # Premier #1: Maths that sounds complicated
 
 ## 🤔Don't know WTF is `Residue class`
-<hr />
+<br />
 
 ## 👌But you know `modular arithmetic` already
 
 - `5 % 3 === 2` 
 
-::right::
+<div class="bg-white">
+
+
 
 ![alt text](/image-2.png)
 
+</div>
 
 <!-- Spent 15 years of our lives learn about it and finally learn to fear and avoid it -->
 
@@ -151,8 +154,8 @@ layout: two-cols
 <img src="/image-27.png" style="height:150px"/>
 <br />
 <img src="/image-5.png" style="height:150px"/>
-
-<img src="/image-7.png" style="height:150px"/>
+<br />
+<img src="/image-7.png" style="height:100px"/>
 
 
 ---
@@ -175,7 +178,7 @@ layout: two-cols
 layout: two-cols
 ---
 
-## 👌You know traits in programming
+## 👌You know inheritance/traits in programming
 
 - Traits/Mixins `implements Vehicle`
   - `move(x:int, y: int)`
@@ -192,6 +195,7 @@ layout: two-cols
 layout: two-cols
 ---
 
+# Field
 
 ## Counter Example
 - Integers ℤ (1,2,3...) is NOT a field
@@ -211,8 +215,10 @@ layout: two-cols
 
 ## 
 
-<img src="/image-40.png" style="height:250px"/>
+<img src="/image-40.png" style="height:300px"/>
 
+
+<br />
 
 ## Field Axioms
 
