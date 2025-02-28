@@ -1,4 +1,0 @@
-import{b as l,o as a,w as r,g as o,i,v as u,x as p,C as s}from"./modules/vue-BGy-8oqK.js";import{_ as m}from"./slidev/two-cols.vue_vue_type_script_setup_true_lang-lsR4TR6S.js";import{u as f,f as d}from"./slidev/context-HYwd2OT4.js";import"./index-BxnGYgmL.js";import"./modules/shiki-DwsqzqLP.js";const P={__name:"slides.md__slidev_9",setup(g){const{$clicksContext:e,$frontmatter:n}=f();return e.setup(),(x,t)=>(a(),l(m,u(p(s(d)(s(n),8))),{right:r(k=>[t[0]||(t[0]=o("h2",null,null,-1)),t[1]||(t[1]=o("h3",null,"Data",-1)),i(` 
-1. "You dependency is my attack vector" - Lots of work
-
-<!-- CyberSecurity - Lots of work to fix our supply chain `),t[2]||(t[2]=o("ol",{start:"2"},[o("li",null,[o("p",null,"DAO governing -> Delegate to AI")]),o("li",null,[o("p",null,"Info-defense -->")])],-1))]),default:r(()=>[t[3]||(t[3]=o("h2",null,"2 things",-1)),t[4]||(t[4]=o("h3",null,"App",-1))]),_:1},16))}};export{P as default};
