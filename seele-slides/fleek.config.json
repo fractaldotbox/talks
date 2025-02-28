@@ -1,0 +1,9 @@
+{
+    "sites": [
+      {
+        "slug": "seele-eth-denver",
+        "distDir": "dist",
+        "buildCommand": ""
+      }
+    ]
+  }
