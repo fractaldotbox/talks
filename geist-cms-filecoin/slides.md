@@ -3,7 +3,7 @@
 theme: seriph
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
-background: https://cover.sli.dev
+# background: https://cover.sli.dev
 # some information about your slides (markdown enabled)
 title: Geist CMS
 info: |
@@ -52,8 +52,9 @@ transition: fade-out
 
 🏗️12yr+ experience Tech lead, built products at Animoca, Mon., JPMorgan and 8+ startups
 
-
 ✌️3x ETHGlobal Finalist
+
+✌️PLDG (#1 #2)
 
 ::right::
 
@@ -106,24 +107,11 @@ layout: center
 </div>
 </div>
 
-
 ---
----
-
-## Learnings
-
-1. "You dependency is my attack vector" - Lots of work
-
-<!-- CyberSecurity - Lots of work to fix our supply chain -->
-
-2. DAO governing -> Delegate to  AI
-
-3. Info-defense
-
-
----
+layout: center
 ---
 
+How can AI Help?
 
 
 ---
@@ -131,38 +119,42 @@ layout: two-cols
 ---
 
 
-## 2 things
+# 2 Parts
 
-### App
+## 1. App
 
 ::right::
 
-## 
+<div class="mb-15">  </div>
 
-### Data
+## 2. Data
 
+![alt text](/image-7.png)
 
-
-<!-- 
-1. "You dependency is my attack vector" - Lots of work
-
-<!-- CyberSecurity - Lots of work to fix our supply chain -->
-
-2. DAO governing -> Delegate to  AI
-
-3. Info-defense -->
 
 
 ---
+layout: fact
 ---
 
-### "You dependency is my attack vector"
+### "You dependency is my opportinity"
 <!-- Security & decentralization -->
 
 ---
 ---
 
+## Geist dDev Kit
 
+## Build your own library for dApps & Agents. AI-Ready.
+
+![alt text](/image-8.png)
+
+---
+---
+<!-- 
+1. "You dependency is my attack vector" - Lots of work
+
+<!-- CyberSecurity - Lots of work to fix our supply chain -->
 
 
 ---
@@ -196,30 +188,70 @@ layout: two-cols
 
 
 
+
+
+
+---
+layout: two-cols
+---
+
+## Back to the data side...
+
+
+- Akave
+- Storacha & UCAN
+
+- => DID/Content Driven, Community owned dataset
+
+<div class="w-2/3">
+
+![alt text](/image-4.png)
+
+</div>
+
+::right::
+
+<div class="w-2/3 h-2/3">
+
+<img src="/image-6.png" class="h-full m-auto ">
+
+</div>
+
+
+<div class="w-2/3 h-1/3">
+
+![alt text](/image-9.png)
+
+</div>
+<!-- https://ethglobal.com/showcase/tuk-tuk-to-the-moon-fwn9j -->
+
+
 ---
 ---
 
 Next Step
 
-- CMS
+- Geist CMS. For Human & Agents
 
-- Filecoin Build Grants
+- No Code Tool to Setup Criteria on what content to accept
+
+- Incentivize Agents to discover opportunities within dataset
+
+- 🙏 FIL Builder Next Step Grants
+
+<!-- collaborating with your team and publish -->
+
+<!-- collaborating with Human & agents and publish -->
 
 ---
 ---
 
+## Right now at ETHDenver Buildathon
 
-collaborating with your team and publish
-
-
----
----
-
-collaborating with Human & agents and publish
+Prototyping...
 
 
-
-
+![alt text](/image-10.png)
 
 
 ---
