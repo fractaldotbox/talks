@@ -255,28 +255,9 @@ with the community's Soul
 layout: fact
 ---
 
-https://thisweekin.eth.1.w3link.io/
-
----
----
-
 ## Demo: This Week in Ethereum
 
-
-## Opportunities
-
-<!-- - https://x.com/TheDevanshMehta/status/1891734584100040938 -->
-
-
-<!-- https://x.com/EthStorage/status/1894921477562212707 -->
-
-
-
-supplychain
-
-
-
-
+https://thisweekin.eth.1.w3link.io/
 
 
 
