@@ -74,11 +74,24 @@ layout: center
 ---
 
 
-Challenges for Agents to help on decentralization
+<div class="bg-white h-[200px] text-black items-center justify-center">
+
+  <img src="/image-5.png" class="h-full m-auto" />
+
+</div>
+
+<!-- Challenges for Agents to help on decentralization
 1. Security
-2. LLM=Blackbox
+2. LLM=Blackbox -->
+
+<!-- avoids enshrining, open source mechanisms -->
 
 
+<div class="bg-white h-[200px] text-black items-center justify-center">
+
+  <img src="/image-6.png" class="h-full m-auto" />
+
+</div>
 
 
 ---
@@ -105,44 +118,7 @@ blockquote > * {
 }
 
 </style>
- <!-- "What I would love to see in a wallet" -->
-<!-- 
-Bullet proof, audited, multi-sig smart contract
-
-....Kim Jong Un decided to add some JS -->
-
----
-layout: center
-class: text-center text-3xl
----
-
-
-😈🦠-> 📰-> 🤖
-
-= 📉💸
-
-
----
-layout: image
-image: /shinji.jpg
----
-
----
-layout: center
-class: text-center text-3xl
----
-
-
-😈🦠->🤖->📰->😱
-
-= ⚔️🪖
-
-
----
-layout: image
-image: /bomb.webp
----
-
+ 
 ---
 layout: two-cols
 ---
@@ -177,7 +153,7 @@ Attack Vectors
 </div>
 
 <div v-click="5" class="w-[300px] mt-20 mb-10">
-  <img src="/shinji_sad.jpg">
+  <img src="/shinji.jpg">
 </div>
 
 
@@ -255,18 +231,11 @@ with the community's Soul
 layout: fact
 ---
 
-## Demo: This Week in Ethereum
+## Demo: This Week in Ethereum 
+### by AI Agents
 
 https://thisweekin.eth.1.w3link.io/
 
-
-
----
----
-
-## Agent Systems
-
-- High interpreability
 
 <!-- Ethereum is a game-changing technology -->
 
@@ -280,24 +249,6 @@ class: text-2xl
 Agent Architecture
 </div>
 
-
----
-layout: center
----
-
-## Don't Trust, Verify
-
-### Reviewers
-- AI agents trained on (Vitalik)'s tweets
-- Reviews
-
-### Fact Check Agents
-
-## Editors create Attestations
-- (EAS)
-
-## zk proof on data
-- Space and Time Queriess
 
 
 <!-- ## Govern by Community
@@ -326,6 +277,15 @@ layout: two-cols
 Interpretability.
 </div>
 
+
+<div class="mt-10">
+
+@vitalik's take on mechanism for AI Players
+- simple
+- avoid enshrining single model (bias)
+
+</div>
+
 ::right::
 
 ### Our take?
@@ -350,10 +310,70 @@ Interpretability.
 
 
 
+
+
 ---
 ---
 
-Double click
+
+<div class="w-full h-full">
+
+<img src="/showcase2.png" class="h-full m-auto" />
+
+</div>
+
+---
+---
+
+## Don't Trust, Verify
+
+## Reviewer agents council
+
+
+<img src="/image-7.png" class="h-2/3 m-auto p-5" />
+
+---
+layout: two-cols
+---
+
+## Don't Trust, Verify #2
+
+
+## Fact checking Agents
+
+<img src="/image-8.png" class="h-2/3 m-auto p-6" />
+
+::right::
+
+
+## zk proof on data
+- Space and Time Queriess
+
+## Editors create Attestations
+- EAS -> greenlight deployment
+
+
+
+
+---
+layout: fact
+---
+
+## Demo: Explorer
+
+https://seele-8ped.onrender.com/explorer
+
+
+
+
+---
+layout: fact
+---
+
+## Demo: AgentArena
+
+https://seele-8ped.onrender.com/arena
+
 
 
 
@@ -404,17 +424,12 @@ Islands Architecture. 90% static
 
 
 
----
----
-
-merkle tree
-
 
 ---
 layout: two-cols
 ---
 
-## Thank you
+## Thank you!
 
 
 <br />
@@ -425,6 +440,7 @@ layout: two-cols
 
 <div class="text-center">
 @debuggingfuture
+Vincent
 </div>
 
 </div>
@@ -440,6 +456,7 @@ layout: two-cols
 
 <div class="text-center">
 @rikkusan30
+Richard
 </div>
 
 </div>
@@ -453,28 +470,9 @@ layout: image
 ---
 
 
-# Dogfooding
+## Dogfooding
 
 ## 
 
 ![alt text](/ddevkit.png)
 
-
----
-layout: two-cols
-layoutClass: gap-16
----
-
-
-
-
-## Demo
-
-This week in ETH
-
-
-## Properties
-- Autonomous,
-- unstoppable, Censorship resistant
-- Agent-Agent Communications
-- Fact checking & review
