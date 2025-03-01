@@ -128,7 +128,12 @@ governed by community
 ---
 ---
 
-![alt text](/image-10.png)
+<div >
+
+
+<img src="/image-11.png" class=" h-[500px] m-auto" />
+
+</div>
 
 
 
