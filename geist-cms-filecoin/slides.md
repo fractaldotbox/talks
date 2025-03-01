@@ -119,15 +119,15 @@ layout: two-cols
 ---
 
 
-# 2 Parts
-
-## 1. App
+# WebApp  = 
+ 
+## App        +
 
 ::right::
 
 <div class="mb-15">  </div>
 
-## 2. Data
+## Data
 
 
 
