@@ -24,7 +24,7 @@ class: text-center text-3xl
 drawings:
   persist: false
 # slide transition: https://sli.dev/guide/animations.html#slide-transitions
-transition: slide-left
+transition: fade-out
 # enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
 ---
@@ -50,50 +50,33 @@ mdc: true
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
 -->
 
----
-transition: fade-out
----
-
 
 ---
 ---
-
+<!-- 
 # Every Agent need a soul
 
 
-Empower Agents with our soul
-
-
-## Demo
-
-This week in ETH
-
-
-## Properties
-- Autonomous,
-- unstoppable, Censorship resistant
-- Agent-Agent Communications
-- Fact checking & review
+Empower Agents with our soul -->
 
 
 
----
----
+
 
 
 <div class="text-9xl">
 1) WHAT
 </div>
 
+
 ---
+layout: center
 ---
 
 
-Agents can help decentralization
-
-Challenges
-- 1. Security
-- 2. Blackbox
+Challenges for Agents to help on decentralization
+1. Security
+2. LLM=Blackbox
 
 
 
@@ -104,30 +87,29 @@ class: text-3xl text-center text-3xl flex flex-row justify-center items-center
 ---
 
 
-<div class="m-auto w-1/2">
+<div class="m-auto w-1/2 text-2xl">
 
-> The weakest link in a user's security is often the dapp.
+> The weakest link in a user's security is often the dApp.
+
+
 > Ideally, we would move the ecosystem to on-chain content versioning
->  ---- What I would love to see in a wallet -- @vitalik 
+>   @vitalik 
 
 </div>
 
+<style>
 
+blockquote > * {
+  font-size: 2rem;
+  line-height: 2.5rem
+}
 
-
----
-layout: center
-class: text-center text-3xl
----
-
+</style>
+ <!-- "What I would love to see in a wallet" -->
+<!-- 
 Bullet proof, audited, multi-sig smart contract
 
-Kim Jong Un add some JS to your dApp 
-
----
-layout: image
-image: /shinji_sad.jpg
----
+....Kim Jong Un decided to add some JS -->
 
 ---
 layout: center
@@ -182,7 +164,7 @@ Attack Vectors
 <br />
 
 <ul >
-<li v-click>Everyone is launching an agent</li>
+<li v-click>Anon launching an agent</li>
 <li v-click>with Hallucination </li>
 <li v-click>on Someone else's LLM</li>
 
@@ -199,14 +181,6 @@ Attack Vectors
 </div>
 
 
----
----
-
-Give agents our soul
-
-
-CMS to build Autonomous website owend by agents, governed by community
-
 
 ---
 ---
@@ -217,29 +191,67 @@ CMS
 
 
 <div class="text-6xl">
-for agents, governed by community
+for agents to build Autonomous websites
 </div>
+
+<br />
+<div class="text-6xl">
+governed by community
+</div>
+
+ 
+<!-- Give agents our soul -->
+
+
+<!-- CMS to build Autonomous website owend by agents, governed by community -->
+
+
 
 ---
 layout: two-cols
 ---
 
 <div class="text-6xl">
-Autonomous news agency by AI agents
+Demo: Autonomous news agency by AI agents
 </div>
 
 ::right::
 
-<div class="text-lg">
+<div class="text-2xl">
+
+Curated
+
+Written
+
+Reviewed
+
+Deployed
+
+
+
+
+<br />
+by Agents
+
+with the community's Soul
+
+<!-- 
+
 
 - censorship-resistant
 - auto-factchecking
-- AI reviewer base on human traits
+- AI reviewer base on human traits -->
 </div>
 
 
 ---
 ---
+
+---
+---
+
+## Demo: This Week in Ethereum
+
 
 ## Opportunities
 
@@ -253,32 +265,10 @@ Autonomous news agency by AI agents
 supplychain
 
 
-https://x.com/safe/status/1894768522720350673
 
 
 
 
----
-layout: center
----
-
-## Don't Trust, Verify
-
-
-- AI agents trained on (Vitalik)'s data
-
-
-##
-
-## Govern by Community
-
-- upload content only if attested
-
-
----
----
-
-## Demo: This Week in Ethereum
 
 ---
 ---
@@ -299,22 +289,39 @@ class: text-2xl
 Agent Architecture
 </div>
 
----
----
-
-<div class="m-auto h-1/2 w-1/2">
-
-![alt text](/coa.png)
-
-</div>
-
-
 
 ---
+layout: center
 ---
 
+## Don't Trust, Verify
+
+### Reviewers
+- AI agents trained on (Vitalik)'s tweets
+- Reviews
+
+### Fact Check Agents
+
+## Editors create Attestations
+- (EAS)
+
+## zk proof on data
+- Space and Time Queriess
+
+
+<!-- ## Govern by Community
+
+- upload content only if attested -->
+
+
+
+
+---
+---
 
 ![alt text](/coa_demo.png)
+
+Google Research - Chain of Agents: LLM collborating on long-context tasks
 
 
 ---
@@ -324,20 +331,40 @@ layout: two-cols
 ### Why CoA?
 
 
-<div class="text-5xl">
-Interpretability
+<div class="text-5xl mt-10">
+Interpretability.
 </div>
 
 ::right::
+
 ### Our take?
 
-<div class="text-5xl">
+<div class="text-3xl mt-10">
 
-~~chunk~~ viewpoint
+1. ~~chunk~~ viewpoint per agent
 
-per agent
 
 </div>
+
+
+<div class="text-3xl mt-10">
+
+
+2. Verifiable communications
+
+
+</div>
+
+
+
+
+
+---
+---
+
+Double click
+
+
 
 ---
 layout: image
@@ -364,12 +391,27 @@ Unstoppable website
 ---
 
 
+![alt text](/image-1.png)
 
-<div class="text-6xl">
-Island Architecture. 90% static
+![alt text](/image-2.png)
+
+<div >
+  <img  class="h-[100px]" src="/image-3.png" />
 </div>
 
-![alt text](/image.png)
+---
+---
+
+
+<div class="text-6xl">
+Islands Architecture. 90% static
+</div>
+<div>
+
+<img src="/image-4.png" class="h-[400px] m-auto pt-2">
+</div>
+
+
 
 ---
 ---
@@ -381,17 +423,35 @@ merkle tree
 layout: two-cols
 ---
 
-# 
+## Thank you
+
+
+<br />
+
+<div class="w-1/3">
 <img border="rounded" class="avatar rounded-full" src="/team-debuggingfuture.png" style="height:150px" alt=""> 
 
-@debuggingfuture
 
+<div class="text-center">
+@debuggingfuture
+</div>
+
+</div>
 
 ::right::
+<br />
+<br />
+
+
+<div class="w-1/3">
 
 <img border="rounded" class="avatar rounded-full" src="/team-rick.jpg" style="height:150px" alt=""> 
 
+<div class="text-center">
 @rikkusan30
+</div>
+
+</div>
 
 <br />
 
@@ -410,16 +470,20 @@ layout: image
 
 
 ---
-transition: slide-up
-level: 2
----
-
-# Dogfood
-
-![alt text](/ddevkit.png)
-
----
 layout: two-cols
 layoutClass: gap-16
 ---
 
+
+
+
+## Demo
+
+This week in ETH
+
+
+## Properties
+- Autonomous,
+- unstoppable, Censorship resistant
+- Agent-Agent Communications
+- Fact checking & review
