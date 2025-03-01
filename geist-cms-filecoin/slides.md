@@ -129,8 +129,6 @@ layout: two-cols
 
 ## 2. Data
 
-![alt text](/image-7.png)
-
 
 
 ---
