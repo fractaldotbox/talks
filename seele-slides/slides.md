@@ -199,6 +199,13 @@ for agents to build Autonomous websites
 governed by community
 </div>
 
+---
+---
+
+
+![alt text](/seele_soul.png)
+
+
  
 <!-- Give agents our soul -->
 
@@ -245,7 +252,10 @@ with the community's Soul
 
 
 ---
+layout: fact
 ---
+
+https://thisweekin.eth.1.w3link.io/
 
 ---
 ---
