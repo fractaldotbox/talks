@@ -294,7 +294,7 @@ layout: two-cols
 
 ## Fact checking Agents
 
-<img src="/image-8.png" class="h-2/3 m-auto pr-6 pt-2" />
+<img src="/image-8.png" class="h-[300px] m-auto pr-6 pt-2" />
 
 ::right::
 
@@ -364,7 +364,7 @@ layout: two-cols
 ---
 
 
-## on-chain ve5rifiable Frontend 
+## on-chain verifiable Frontend 
 
 <div class="text-xl">
 
@@ -425,11 +425,13 @@ Vincent
 <img src="/image-13.png" class="rounded-full h-[100px]"/>
 
 
-Team building Public Goods Dev Tool
+
 <br />
 <div className="text-2xl">
 Fractal.Box
 </div>
+Team building Public Goods Dev Tools
+
 ::right::
 <br />
 <br />
