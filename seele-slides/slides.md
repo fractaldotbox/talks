@@ -234,7 +234,7 @@ Interpretability.
 
 ::right::
 
-## Why On-chain communications?
+## Why On-chain comms?
 
 
 <div class="text-5xl mt-10">
