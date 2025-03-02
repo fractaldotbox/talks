@@ -87,29 +87,37 @@ Blackbox, Hallucinations, Bias
 
 
 ---
-layout: center
+layout: two-cols
 ---
 
 
-<div class="bg-white h-[200px] text-black items-center justify-center">
-
-  <img src="/image-5.png" class="h-full m-auto" />
-
-</div>
 
 <!-- Challenges for Agents to help on decentralization
 1. Security
 2. LLM=Blackbox -->
 
 <!-- avoids enshrining, open source mechanisms -->
+<br />
+<br />
 
-
-<div class="bg-white h-[200px] text-black items-center justify-center">
+<div class="h-[250px] text-black items-center justify-center mt-10">
 
   <img src="/image-6.png" class="h-full m-auto" />
 
 </div>
 
+::right:: 
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<div v-click class="p-5 text-5xl">
+Content <-> Agents
+
+</div>
 
 
 <style>
@@ -214,12 +222,6 @@ Interpretability.
 <br />
 <br />
 
-## Why On-chain communications?
-
-
-<div class="text-4xl mt-10">
-Verifiability
-</div>
 
 
 
@@ -232,9 +234,13 @@ Verifiability
 
 ::right::
 
-<br />
-<br />
-<br />
+## Why On-chain communications?
+
+
+<div class="text-5xl mt-10">
+Verifiability.
+</div>
+
 <br />
 <br />
 <br />
@@ -264,7 +270,7 @@ by Google Research
 
 <div class="w-full h-full">
 
-<img src="/image-11.png" class="h-full m-auto" />
+<img src="/image-15.png" class="h-full m-auto" />
 
 </div>
 
@@ -283,20 +289,25 @@ layout: two-cols
 ---
 
 ## Don't Trust, Verify #2
+<br />
 
 
 ## Fact checking Agents
 
-<img src="/image-8.png" class="h-2/3 m-auto p-6" />
+<img src="/image-8.png" class="h-2/3 m-auto pr-6 pt-2" />
 
 ::right::
 
 
+<br />
+<br />
+<br />
+
 ## zk proof on data
 - Space and Time Queriess
 
-## Editors create Attestations
-- EAS -> greenlight deployment
+## Trustless Deployment
+- Editor Attest via EAS -> greenlight deployment
 
 
 
@@ -305,9 +316,11 @@ layout: two-cols
 layout: fact
 ---
 
-## DEMO: Explorer
+## DEMO: [Explorer](https://seele-8ped.onrender.com/explorer)
 
-https://seele-8ped.onrender.com/explorer
+
+
+![alt text](/image-14.png)
 
 
 
@@ -316,11 +329,10 @@ https://seele-8ped.onrender.com/explorer
 layout: fact
 ---
 
-## DEMO: AgentArena
-
-https://seele-8ped.onrender.com/arena
+## DEMO: [AgentArena](https://seele-8ped.onrender.com/arena)
 
 
+![alt text](/image-16.png)
 
 
 ---
@@ -330,8 +342,10 @@ background: /shinji.jpg
 ---
 
 
-<div class="text-9xl">
-Unstoppable website
+<div class="text-7xl">
+Unstoppable, 
+
+Secure website
 </div>
 
 <div class="flex justify-end items-center w-full">
@@ -350,7 +364,7 @@ layout: two-cols
 ---
 
 
-## Secure Frontend 
+## on-chain ve5rifiable Frontend 
 
 <div class="text-xl">
 
@@ -408,13 +422,13 @@ Vincent
 
 <br />
 
-<img src="/image-13.png" class="rounded-full"/>
+<img src="/image-13.png" class="rounded-full h-[100px]"/>
 
 
 Team building Public Goods Dev Tool
 <br />
 <div className="text-2xl">
- @geistddev
+Fractal.Box
 </div>
 ::right::
 <br />
@@ -448,3 +462,4 @@ layout: image
 ![alt text](/ddevkit.png)
 
 
+<!-- https://excalidraw.com/#room=48e9730c269c0b904be5,9EdmAkDMB7sPHaEx_pM4Ow -->
