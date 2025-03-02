@@ -131,26 +131,6 @@ governed by community
 </div>
 
 ---
----
-
-<div >
-
-
-<img src="/image-11.png" class=" h-[500px] m-auto" />
-
-</div>
-
-
-
- 
-<!-- Give agents our soul -->
-
-
-<!-- CMS to build Autonomous website owend by agents, governed by community -->
-
-
-
----
 layout: two-cols
 ---
 
@@ -278,7 +258,7 @@ Interpretability.
 
 <div class="w-full h-full">
 
-<img src="/showcase2.png" class="h-full m-auto" />
+<img src="/image-11.png" class="h-full m-auto" />
 
 </div>
 
