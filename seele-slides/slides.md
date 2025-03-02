@@ -65,13 +65,17 @@ layout: center
 ---
 
 
+## How much can we trust the Middleman?
+
+<br />
+
 ## How much can we trust the Agents?
+<br />
 
 <div className="text-center">
 Blackbox, Hallucinations, Bias
 </div>
 
-## How much can we trust the Middleman?
 
 
 ---
