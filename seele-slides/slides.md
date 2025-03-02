@@ -190,9 +190,34 @@ for agents to build Autonomous websites
 governed by community
 </div>
 
+
+---
+layout: fact
+---
+
+## DEMO: [Explorer](https://seele-8ped.onrender.com/explorer)
+
+
+
+![alt text](/image-14.png)
+
+
+
+---
+layout: fact
+---
+
+## DEMO: [AgentArena](https://seele-8ped.onrender.com/arena)
+
+
+![alt text](/image-16.png)
+
+
 ---
 class: text-2xl
 ---
+
+
 
 
 <div class="text-9xl">
@@ -312,27 +337,7 @@ layout: two-cols
 
 
 
----
-layout: fact
----
 
-## DEMO: [Explorer](https://seele-8ped.onrender.com/explorer)
-
-
-
-![alt text](/image-14.png)
-
-
-
-
----
-layout: fact
----
-
-## DEMO: [AgentArena](https://seele-8ped.onrender.com/arena)
-
-
-![alt text](/image-16.png)
 
 
 ---
