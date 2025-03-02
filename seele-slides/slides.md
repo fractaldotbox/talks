@@ -74,13 +74,14 @@ How much can we trust
 <div className="text-3xl text-center  pt-2">
 the middleman?
 </div>
-<div className="text-3xl text-center pt-2">
+
+<div v-click="1" className="text-3xl text-center pt-2">
 the Agents?
 </div>
 
 
 
-<div className="text-2xl  text-center pt-6 text-red">
+<div v-click="1" className="text-2xl  text-center pt-6 text-red">
 Blackbox, Hallucinations, Bias
 </div>
 
@@ -303,6 +304,8 @@ by Google Research
 ---
 
 ## Don't Trust, Verify
+
+<br />
 
 ## Reviewer agents council
 
