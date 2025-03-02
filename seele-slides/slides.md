@@ -64,15 +64,23 @@ The last comment block of each slide will be treated as slide notes. It will be 
 layout: center
 ---
 
+<div className="text-6xl">
+How much can we trust
+</div>
 
-## How much can we trust the Middleman?
 
 <br />
 
-## How much can we trust the Agents?
-<br />
+<div className="text-3xl text-center  pt-2">
+the middleman?
+</div>
+<div className="text-3xl text-center pt-2">
+the Agents?
+</div>
 
-<div className="text-center">
+
+
+<div className="text-2xl  text-center pt-6 text-red">
 Blackbox, Hallucinations, Bias
 </div>
 
@@ -113,40 +121,30 @@ blockquote > * {
 
 </style>
  
----
----
-
-<div class="text-9xl">
-CMS
-</div>
-
-
-<div class="text-6xl">
-for agents to build Autonomous websites
-</div>
-
-<br />
-<div class="text-6xl">
-governed by community
-</div>
 
 ---
 layout: two-cols
 ---
 
 <div class="text-6xl">
-Demo: Autonomous news agency by AI agents
+DEMO - <a href="https://thisweekin.eth.1.w3link.io/">Autonomous news agency by AI agents</a>
 </div>
 
 ::right::
 
-<div class="text-2xl">
+<div class="text-3xl text-white text-right">
 
+<br />
+<br />
+<br />
+<br />
 Curated
 
 Written
 
 Reviewed
+
+Fact-checked
 
 Deployed
 
@@ -168,17 +166,21 @@ with the community's Soul
 
 
 ---
-layout: fact
 ---
 
-## Demo: This Week in Ethereum 
-### by AI Agents
+<div class="text-9xl">
+CMS
+</div>
 
-https://thisweekin.eth.1.w3link.io/
 
+<div class="text-6xl">
+for agents to build Autonomous websites
+</div>
 
-<!-- Ethereum is a game-changing technology -->
-
+<br />
+<div class="text-6xl">
+governed by community
+</div>
 
 ---
 class: text-2xl
@@ -197,54 +199,58 @@ Agent Architecture
 
 
 
-
----
----
-
-![alt text](/coa_demo.png)
-
-Google Research - Chain of Agents: LLM collborating on long-context tasks
-
-
 ---
 layout: two-cols
 ---
 
-### Why CoA?
+## Why Swarm?
 
 
 <div class="text-5xl mt-10">
 Interpretability.
 </div>
 
+<br />
+<br />
+<br />
 
-<div class="mt-10">
+## Why On-chain communications?
 
-@vitalik's take on mechanism for AI Players
+
+<div class="text-4xl mt-10">
+Verifiability
+</div>
+
+
+
+
+<!-- @vitalik's take on mechanism for AI Players
 - simple
 - avoid enshrining single model (bias)
+ -->
 
-</div>
 
 ::right::
 
-### Our take?
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
-<div class="text-3xl mt-10">
-
-1. ~~chunk~~ viewpoint per agent
+![alt text](/coa_demo.png)
 
 
+<div className="text-right">
+
+<div className="italic">
+Chain of Agents: LLM collborating on long-context tasks
 </div>
 
-
-<div class="text-3xl mt-10">
-
-
-2. Verifiable communications
-
-
+by Google Research
 </div>
+
 
 
 
@@ -299,7 +305,7 @@ layout: two-cols
 layout: fact
 ---
 
-## Demo: Explorer
+## DEMO: Explorer
 
 https://seele-8ped.onrender.com/explorer
 
@@ -310,7 +316,7 @@ https://seele-8ped.onrender.com/explorer
 layout: fact
 ---
 
-## Demo: AgentArena
+## DEMO: AgentArena
 
 https://seele-8ped.onrender.com/arena
 
@@ -338,29 +344,39 @@ Unstoppable website
 </div>
 
 
+
 ---
+layout: two-cols
 ---
 
 
-![alt text](/image-1.png)
+## Secure Frontend 
 
-![alt text](/image-2.png)
+<div class="text-xl">
 
-<div >
-  <img  class="h-[100px]" src="/image-3.png" />
+- Entire website is on-chain
+- Islands Architecture. 90% static
+- dDevKit - Minimized Dependenceis
+
+</div>
+<div class="mt-10">
+<img src="/image-1.png" class="h-[100px] m-auto pt-2">
 </div>
 
----
----
-
-
-<div class="text-6xl">
-Islands Architecture. 90% static
-</div>
 <div>
-
-<img src="/image-4.png" class="h-[400px] m-auto pt-2">
+<img src="/image-2.png" class="h-[100px] m-auto pt-2">
 </div>
+
+
+::right::
+
+<div>
+<img src="/image-4.png" class="h-[300px] m-auto pt-2">
+</div>
+
+
+
+
 
 
 
@@ -383,8 +399,23 @@ layout: two-cols
 Vincent
 </div>
 
+
+
 </div>
 
+
+###
+
+<br />
+
+<img src="/image-13.png" class="rounded-full"/>
+
+
+Team building Public Goods Dev Tool
+<br />
+<div className="text-2xl">
+ @geistddev
+</div>
 ::right::
 <br />
 <br />
@@ -415,4 +446,5 @@ layout: image
 ## 
 
 ![alt text](/ddevkit.png)
+
 
