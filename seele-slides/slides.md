@@ -438,7 +438,7 @@ Vincent
 <div className="text-2xl">
 Fractal.Box
 </div>
-Team building Public Goods Dev Tools
+Team building Public Goods Dev Tools Geist - [Support us on Gitcon 23](https://checker.gitcoin.co/public/project/show/geist)
 
 ::right::
 <br />
